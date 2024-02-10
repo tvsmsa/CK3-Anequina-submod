@@ -37,3 +37,38 @@ kept_leyawiin_modifier = {
     icon = diplomacy_positive
     nibenese_opinion = 15
 }
+
+#Modifier for returning Arenthia
+returned_arenthia_modifier = {
+    icon = martial_positive
+    same_culture_opinion = 15
+    arenthi_opinion = -30
+}
+
+#If you chose Rawl'kha as capital
+rawlkha_capital_modifier = {
+    icon = county_modifier_development_positive
+    tax_mult = 0.2
+    development_growth_factor = 0.2
+	county_opinion_add = 20
+	build_speed = -0.2
+	build_gold_cost = -0.1
+}
+
+#If you chose Arenthia as capital
+arenthia_capital_modifier = {
+    icon = county_modifier_development_positive
+    development_growth_factor = 0.1
+	county_opinion_add = 10
+	build_speed = -0.1
+	build_gold_cost = -0.05
+}
+
+#If you chose Rawl'kha and ignored Arenthia
+passed_over_as_capital_modifier = {
+    icon = county_modifier_development_negative
+    development_growth_factor = -0.1
+	county_opinion_add = -10
+	build_speed = 0.2
+	build_gold_cost = 0.05
+}

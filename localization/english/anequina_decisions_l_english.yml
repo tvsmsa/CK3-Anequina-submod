@@ -3,7 +3,7 @@
  restore_anequina_decision:0 "Restore Anequina"
  restore_anequina_decision_desc:0 "Before the formation of Confederacy of Elsweyr and rule of Mane, Anequina was powerful and independent kingdom for thousands of years. Although what realms exist today are far cry from our glorious past, if Northern Elsweyr was once more unified under a strong ruler perhaps we could make steps toward reclaiming our power."
  restore_anequina_decision_tooltip:0 "It's time to restore our ancient glory"
- restore_anequina_decision_effect_tooltip:0 "You restore ancient kingdom of Anequina and become de jure liege of all kingdoms in the region"
+ restore_anequina_decision_effect_tooltip:0 "You restore ancient kingdom of Anequina and become de jure liege of all kingdoms in the region. You will gain access to new decisions focused on expanding your realm."
  restore_anequina_decision_confirm:0 "It's time to restore our ancient glory"
 
  anequina.0001.t:0 "Restoration of Kingdom of Anequina"
@@ -28,5 +28,18 @@
  return_arenthia_decision:0 "Return Arenthia"
  return_arenthia_decision_desc:0 "Always a contested land between Khajiiti, Bosmers and Imperials, we can secure our claim on kingdom of Arenthia by holding onto it for long enough and settling our people there."
  return_arenthia_decision_tooltip:0 "Return Arenthia"
- return_arenthia_decision_effect_tooltip:0  "By controlling kingdom of Arenthia and settling people of your culture in its capital you can formalise your control over it."
+ return_arenthia_decision_effect_tooltip:0  "By controlling the entirety of kingdom of Arenthia and settling people of your culture in its de jure capital you can formalise your control over it."
  return_arenthia_decision_confirm:0 "Arenthia is ours!"
+
+ anequina.0003.t:0 "Arenthia or Rawl'kha?"
+ anequina.0003.desc:0 "We have managed to hold onto Arenthia long enough and settle enough of our people there to be able formalise our rule over the region.\n\nBut to do that, we need to choose capital of our new kingdom.\nWe can keep Arenthia as capital - it is major and important trade city, nestled on the fork of both the Crescent River and the Strid River.\nBut there is also an option to move capital to Rawl'kha - a holy city for every khajiit. This is where the Mane revealed the Riddle'Thar Epiphany and where one of the most important temples of our faith is located - the House of Dance."
+ anequina.0003.a:0 "We will choose Rawl'kha"
+ anequina.0003.a.tt:0 "Rawl'kha will be new de jure capital of Kingdom of Arenthia, which will prove positive for its development. However such shift will have negative consequences for city of Arenthia"
+ anequina.0003.b:0 "Arenthia is enough"
+ anequina.0003.b.tt:"You will keep Arenthia as Kingdom's capital"
+
+ restore_dagon_pantheon_decision:0 "Restore Dagon"
+ restore_dagon_pantheon_decision_desc:0 "R"
+ restore_dagon_pantheon_decision_tooltip:0 "R"
+ restore_dagon_pantheon_decision_effect_tooltip:0 "R"
+ restore_dagon_pantheon_decision_confirm:0 "R"

@@ -10,12 +10,16 @@ Anequina submod for Elder Kings 2
 	1.2) Integrate Leyawiin	
 
 	1.3) Return Arenthia
+	
+	1.4) Add Mehrunes Dagon to Pantheon
 
-2)Modifiers:
+2) Modifiers:
 
 	2.1) Anequina - positive Anequinan opinion, martial buff, diplomacy buff, +20% prestige, negative Zealous opinion
 	
 	2.2) Leyawiin - county modifier for Malaapit, modifiers for every choice (Malaapit, Anequinan, Nibenese)
+	
+	2.3) Arenthia - county modifier for Arenthia or Rawl'kha (Arenthia gets negative modifier if Rawl'kha is chosen), negative opinion for Bosmers (only Arenthi for now)
 
 3) Events for already existing decisions:
 
@@ -23,25 +27,23 @@ Anequina submod for Elder Kings 2
 	
 	3.2) Leaywiin decision - can choose who to settle: Malaapit, Anequinan or keep Nibenese
 	
+	3.3) Arenthia decision - can choose capital for Arenthia
+	
 
 ## TO-DO:
 
 1) Decision to invade Skingrad. Need to do Restore Darloc Brae Empire decision first
 
-2) Modifiers for already existing decisions
+2) Do'krin special building in game (building itself is coded)
 
-	2.1) Arenthia decision - positive Khajiit opinion, negative Bosmer opinion, possibly negative Imperial opinion, maybe diplomacy or intrigue buff. Modifier for Arenthia county (or Rawl'kha).
+3) Restore Darloc Brae Empire: conquer Arenthia and Leaywiin, max prestige level. Very good modifier for all Anequinan counties.
 
-3) Do'krin special building in game (building itself is coded)
+4) Alabasti decision possibly.
 
-4) Events for already existing decisions
+5) More Skingrad and later Cyrodiil stuff.
 
-	4.1) Arenthia decision - either just flavour for Arenthia(it gets modifier) or move Arenthia's capital to Rawl'kha and it gets modifier instead(it auto converts culture and faith, maybe add negative modifier for Arenthia).
+6) Drive out Imperials minor decision (only for kingdom of Rimmen)
 
-5) Restore Darloc Brae Empire: conquer Arenthia and Leaywiin, max prestige level. Very good modifier for all Anequinan counties.
+7) Make Do'Krin holy site for Two Moons (on decision if possible).
 
-6) Alabasti decision possibly.
-
-7) More Skingrad and later Cyrodiil stuff.
-
-8) Drive out Imperials minor decision (only for kingdom of Rimmen)
+8) Add text for Dagon Decision and make him Merrunz, fix holy sites text and return to  4 (or possibly 5) holy sites

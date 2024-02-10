@@ -13,3 +13,15 @@
 
  kept_leyawiin_modifier:0 "Kept Leyawiin Nibenese"
  kept_leyawiin_modifier_desc:0 "This character did not settle their own people or anyone else in Leyawiin after conquering it, earning gratitude from Nibenese people"
+
+ returned_arenthia_modifier:0 "Returned Arenthia"
+ returned_arenthia_modifier_desc:0 "This character returned Arenthia to Khajiiti rule, this greatly angered their Bosmer neighbours"
+ 
+ rawlkha_capital_modifier:0 "New Khajiiti kingdom capital"
+ rawlkha_capital_modifier_desc:0 "This city was chosen as capital of recently established Khajiiti kingdom"
+
+ arenthia_capital_modifier:0 "New Khajiiti kingdom capital"
+ arenthia_capital_modifier_desc:0 "This city was chosen as capital of recently established Khajiiti kingdom"
+
+ passed_over_as_capital_modifier:0 "Passed over as capital"
+ passed_over_as_capital_modifier_desc:0 "This city was passed over as capital in favor of Rawl'kha, this led to negative economic consequences"

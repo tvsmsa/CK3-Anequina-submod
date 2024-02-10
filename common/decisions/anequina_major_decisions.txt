@@ -2,6 +2,7 @@
 # ANEQUINA FLAVOR #
 ##############
 
+#Restore Anequina
 restore_anequina_decision = {
     picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
     desc = restore_anequina_decision_desc
@@ -61,6 +62,7 @@ restore_anequina_decision = {
 	}
 }
 
+#Integrate Leyawiin
 integrate_leyawiin_decision = {
     picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
     desc = integrate_leyawiin_decision_desc
@@ -104,6 +106,7 @@ integrate_leyawiin_decision = {
     }
 }
 
+#Return Arenthia 
 return_arenthia_decision = {
     picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
     desc = return_arenthia_decision_desc
@@ -125,7 +128,7 @@ return_arenthia_decision = {
         #Need to fully control and have held title of Arenthia for 10 years
         completely_controls = title:k_arenthia
         has_title = title:k_arenthia
-        title:k_arenthia = { title_held_years >= 15 }
+        #title:k_arenthia = { title_held_years >= 15 } Commented for testing 
         #Need capital of Arenthia to be of your culture
         title:c_arenthia.culture = culture = root.culture
 	}
@@ -136,10 +139,87 @@ return_arenthia_decision = {
 
     effect = {
         custom_tooltip = return_arenthia_decision_effect_tooltip
+        add_character_modifier = {
+            modifier = returned_arenthia_modifier
+            years = 50
+        }
+        trigger_event = anequina.0003
         hidden_effect = {
-            title:k_arenthia= { save_scope_as = anequina_leyawiin }
+            title:k_arenthia= { save_scope_as = anequina_arenthia }
             title:k_arenthia = { set_de_jure_liege_title = title:e_anequina }
 		}
         set_global_variable = arenthia_returned
     }
+}
+
+
+restore_dagon_pantheon_decision = {
+    picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+    desc = restore_dagon_pantheon_decision_desc
+    selection_tooltip = restore_dagon_pantheon_decision_tooltip
+    major = yes
+
+    ai_check_interval = 120
+
+    is_shown = {
+		is_ruler = yes
+		is_landed = yes
+        culture = culture:anequinan
+        has_title = title:e_anequina
+        has_global_variable = anequina_restored
+        NOT = { has_global_variable = dagon_part_of_two_moons }
+	}
+
+    is_valid = {
+        is_independent_ruler =  yes
+        is_at_war = no
+        piety_level >= 5
+        faith = {
+			any_holy_site = {
+				OR = {
+					county.holder = root
+					county.holder.top_liege = { this = root }
+				}
+				count>=3 #return to 4 after testing
+			}
+		}
+        OR = {
+            has_trait = cynical
+            has_trait ambitious
+            #AND = {
+            #    has_trait = cynical
+            #    has_trait = ambitious
+            #}
+            #AND = {
+            #    has_trait = cynical
+            #    has_trait = callous
+            #}
+            #AND = {
+            #    has_trait = ambitious
+            #    has_trait = wrathful
+            #}
+            #AND = {
+                has_trait = ambitious
+            #    has_trait = callous
+            #}
+        }
+        #NOT = {
+        #    has_trait = compassionate
+        #}
+	}
+
+    cost = {
+		piety = { value = 3000 }
+	}
+
+    effect = {
+        custom_tooltip = restore_dagon_pantheon_decision_effect_tooltip
+        hidden_effect = {
+            faith = {
+                remove_doctrine = doctrine_mehrunes_criminal
+                add_doctrine = doctrine_mehrunes_pantheon
+            }
+		}
+        set_global_variable = dagon_part_of_two_moons
+	}
 }

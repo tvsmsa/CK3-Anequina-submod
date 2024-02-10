@@ -119,3 +119,60 @@ anequina.0002 = {
 		}
 	}
 }
+
+#Arenthia event
+anequina.0003 = {
+	title = anequina.0003.t
+	desc = anequina.0003.desc
+	content_source = dlc_ek
+	theme = realm
+
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+
+	#Move capital of this kingdom to Rawl'kha
+	option = {
+		name = anequina.0003.a
+		custom_tooltip = anequina.0003.a.tt
+		get_title = title:c_sleekcreek
+		title:c_sleekcreek = {
+			add_county_modifier = {
+				modifier = rawlkha_capital_modifier
+				years = 80
+			}
+			set_county_faith = root.faith
+		}
+		title:c_arenthia = {
+			add_county_modifier = {
+				modifier = passed_over_as_capital_modifier
+				years = 30
+			}
+		}
+		#Convert Rawlkha to Anequinan (just in case if its not)
+		hidden_effect = {
+			title:c_sleekcreek = {
+				set_county_culture = root.culture
+			}
+			title:k_arenthia = {
+				set_capital_county = title:c_sleekcreek
+			}
+			title:d_arenthia = {
+				set_capital_county = title:c_sleekcreek
+			}
+		}
+	}
+	#Keep Arenthia as capital
+	option = {
+		name = anequina.0003.b
+		custom_tooltip = anequina.0003.b.tt
+		get_title = title:c_arenthia
+		title:c_arenthia = {
+			add_county_modifier = {
+				modifier = arenthia_capital_modifier
+				years = 80
+			}
+		}
+	}
+}
