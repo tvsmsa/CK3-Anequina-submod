@@ -40,9 +40,13 @@ restore_anequina_decision = {
     effect = {
 		#Get Empire of Anequina
 		get_title = title:e_anequina
-		#No Event yet
-		#trigger_event = ek_major_decisions.0020
+		#Event for Restoration
+		trigger_event = anequina.0001
         custom_tooltip = restore_anequina_decision_effect_tooltip
+        add_character_modifier = {
+			modifier = restored_anequina_modifier
+			years = 50
+		}
         hidden_effect = {
             title:k_rimmen = { save_scope_as = anequina_rimmen }
             title:k_orcrest = { save_scope_as = anequina_orcrest }

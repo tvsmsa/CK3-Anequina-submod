@@ -1,0 +1,9 @@
+# Modifier for restoring Anequina
+restored_anequina_modifier = {
+	icon = prestige_positive
+	monthly_prestige_gain_mult = 0.2
+	diplomacy = 2
+    martial = 3
+    same_culture_opinion = 15
+    zealot_opinion = -10
+}

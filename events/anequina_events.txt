@@ -1,0 +1,21 @@
+namespace = anequina
+
+#Restore High kingdom of Anequina
+anequina.0001 = {
+	title = anequina.0001.t
+	desc = anequina.0001.desc
+    content_source = dlc_ek
+	theme = realm
+
+	left_portrait = {
+		character = root
+		#animation = personality_bold
+        animation = war_over_win
+	}
+	
+	option = {
+		name = anequina.0001.a
+        give_nickname = nick_sharp_tongue
+		add_prestige = medium_prestige_gain
+	}
+}

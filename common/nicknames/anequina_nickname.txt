@@ -1,0 +1,1 @@
+nick_sharp_tongue = {} #Nickname for restoring Anequina

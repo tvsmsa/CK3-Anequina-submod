@@ -1,0 +1,23 @@
+﻿l_english:
+
+ restore_anequina_decision:0 "Restore Anequina"
+ restore_anequina_decision_desc:0 "Before the formation of Confederacy of Elsweyr and rule of Mane, Anequina was powerful and independent kingdom for thousands of years. Although what realms exist today are far cry from our glorious past, if Northern Elsweyr was once more unified under a strong ruler perhaps we could make steps toward reclaiming our power."
+ restore_anequina_decision_tooltip:0 "It's time to restore our ancient glory"
+ restore_anequina_decision_effect_tooltip:0 "You restore ancient kingdom of Anequina and become de jure liege of all kingdoms in the region"
+ restore_anequina_decision_confirm:0 "It's time to restore our ancient glory"
+
+ anequina.0001.t:0 "Restoration of Kingdom of Anequina"
+ anequina.0001.desc:0 "For the first time since formation of the Confederacy of Elsweyr, Kingdom of Anequina can once again claim itself independent. We have restored control over our ancestral lands, but with rest of Tamriel in chaos, a new opportunity arises. We can expand our domain even further and perhaps even restore ancient kingdom of Darloc Brae. Who knows, maybe we'll even surpass achievements of Golden Beast himself?"
+ anequina.0001.a:0 "Anequina is restored"
+
+ integrate_leyawiin_decision:0 "Integrate Leyawiin"
+ integrate_leyawiin_decision_desc:0 "Although Leyawiin has been Imperial for most of its history, it was briefly under Khajiiti control during reign of Darloc Brae. If we were to control lands west of the mouth of Niben River, we could integrate Leyawiin into our kingdom and settle our people there."
+ integrate_leyawiin_decision_tooltip:0 "Integrate Leyawiin"
+ integrate_leyawiin_decision_effect_tooltip:0  "By controlling lands west of the mouth of Niben River you can claim de jure sovereignty over Kingdom of Leyawiin and decide who to settle there"
+ integrate_leyawiin_decision_confirm:0 "For Anequina!"
+
+ return_arenthia_decision:0 "Return Arenthia"
+ return_arenthia_decision_desc:0 "Always a contested land between Khajiiti, Bosmers and Imperials, we can secure our claim on kingdom of Arenthia by holding onto it for long enough and settling our people there."
+ return_arenthia_decision_tooltip:0 "Return Arenthia"
+ return_arenthia_decision_effect_tooltip:0  "By controlling kingdom of Arenthia and settling people of your culture in its capital you can formalise your control over it."
+ return_arenthia_decision_confirm:0 "Arenthia is ours!"
