@@ -90,15 +90,16 @@ integrate_leyawiin_decision = {
     effect = {
         get_title = title:k_leyawiin
         custom_tooltip = integrate_leyawiin_decision_effect_tooltip
+        trigger_event = anequina.0002
         hidden_effect = {
             title:k_leyawiin= { save_scope_as = anequina_leyawiin }
             title:k_leyawiin = { set_de_jure_liege_title = title:e_anequina }
 		}
-        get_title = title:c_leyawiin
-        title:c_leyawiin = {
-				set_county_culture = root.culture
-				set_county_faith = root.faith
-		}
+        #get_title = title:c_leyawiin
+        #title:c_leyawiin = {
+		#		set_county_culture = root.culture
+		#		set_county_faith = root.faith
+		#}
         set_global_variable = leyawiin_integrated
     }
 }

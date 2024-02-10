@@ -19,3 +19,103 @@ anequina.0001 = {
 		add_prestige = medium_prestige_gain
 	}
 }
+
+#Integrate Leyawiin
+anequina.0002 = {
+	title = anequina.0002.t
+	desc = anequina.0002.desc
+	content_source = dlc_ek
+	theme = realm
+
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+
+	#Settle Malapiit
+	option = {
+		name = anequina.0002.a
+		custom_tooltip = anequina.0002.a.tt
+		get_title = title:c_leyawiin
+		title:c_leyawiin = {
+			set_county_culture = culture:malapiit
+			set_county_faith = root.faith
+			add_county_modifier = {
+				modifier = malapiit_flourishing_modifier					
+				years = 80
+			}
+		}
+		hidden_effect = {
+			title:c_nomore = {
+				set_county_culture = culture:malapiit
+				#set_county_faith = root.faith
+				add_county_modifier = {
+					modifier = malapiit_flourishing_modifier
+					years = 80
+					}
+			}
+			title:c_tyrios = {
+				set_county_culture = culture:malapiit
+				#set_county_faith = root.faith
+				add_county_modifier = {
+					modifier = malapiit_flourishing_modifier
+					years = 80
+				}
+			}
+			title:c_water_edge = {
+				set_county_culture = culture:malapiit
+				#set_county_faith = root.faith
+				add_county_modifier = {
+					modifier = malapiit_flourishing_modifier
+					years = 80
+					}
+			}
+			title:c_forsaken_cape = {
+				set_county_culture = culture:malapiit
+				#set_county_faith = root.faith
+				add_county_modifier = {
+					modifier = malapiit_flourishing_modifier
+					years = 80
+				}
+			}
+			title:c_telepe = {
+				set_county_culture = culture:malapiit
+				#set_county_faith = root.faith
+				add_county_modifier = {
+					modifier = malapiit_flourishing_modifier
+					years = 80
+				}
+			}				
+		}
+		add_character_modifier = {
+			modifier = settled_malapiit_modifier
+			years = 50
+		}
+	}
+	
+	#Settle Anequinans
+	option = {
+		name = anequina.0002.b
+		custom_tooltip = anequina.0002.b.tt
+		get_title = title:c_leyawiin
+        title:c_leyawiin = {
+			set_county_culture = root.culture
+			set_county_faith = root.faith
+		}
+		add_character_modifier = {
+			modifier = settled_anequinans_modifier
+			years = 50
+		}
+	}
+
+	#Keep Imperials in Leyawiin
+	option = {
+		name = anequina.0002.c
+		custom_tooltip = anequina.0002.c.tt
+		get_title = title:c_leyawiin
+		add_character_modifier = {
+			modifier = kept_leyawiin_modifier
+			years = 50
+		}
+	}
+}

@@ -1,3 +1,15 @@
 ﻿l_english: 
  restored_anequina_modifier:0 "Restored Anequina"
  restored_anequina_modifier_desc:0 "You restored kingdom of Anequina, earning respect from your people, but undermining the Mane in the process."
+
+ malapiit_flourishing_modifier:0 "Malapiit Flourishing"
+ malapiit_flourishing_modifier_desc:0 "For the first time in thousands of years Malapiit culture fully controls left side of Niben's Mouth, this led to their culture floursihing"
+ 
+ settled_malapiit_modifier:0 "Settled Malapiit"
+ settled_malapiit_modifier_desc:0 "This character granted Leyawiin and surrounding areas to Malapiit, earning their gratitude and angering Nibenese"
+
+ settled_anequinans_modifier:0 "Settled Anequinans"
+ settled_anequinans_modifier_desc:0 "This character decided to settle their own people in Leyawiin, earning anger from Nibenese"
+
+ kept_leyawiin_modifier:0 "Kept Leyawiin Nibenese"
+ kept_leyawiin_modifier_desc:0 "This character did not settle their own people or anyone else in Leyawiin after conquering it, earning gratitude from Nibenese people"

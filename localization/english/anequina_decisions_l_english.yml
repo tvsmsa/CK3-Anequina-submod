@@ -11,10 +11,19 @@
  anequina.0001.a:0 "Anequina is restored"
 
  integrate_leyawiin_decision:0 "Integrate Leyawiin"
- integrate_leyawiin_decision_desc:0 "Although Leyawiin has been Imperial for most of its history, it was briefly under Khajiiti control during reign of Darloc Brae. If we were to control lands west of the mouth of Niben River, we could integrate Leyawiin into our kingdom and settle our people there."
+ integrate_leyawiin_decision_desc:0 "Although Leyawiin has been Imperial for most of its history, it was briefly under Khajiiti control during the reign of Darloc Brae. If we were to control lands west of the mouth of Niben River, we could claim Leyawiin and integrate it into our kingdom. The only questions is - who will get the city of Leyawiin itself?"
  integrate_leyawiin_decision_tooltip:0 "Integrate Leyawiin"
- integrate_leyawiin_decision_effect_tooltip:0  "By controlling lands west of the mouth of Niben River you can claim de jure sovereignty over Kingdom of Leyawiin and decide who to settle there"
+ integrate_leyawiin_decision_effect_tooltip:0  "By controlling lands west of the mouth of Niben River you can claim sovereignty over Kingdom of Leyawiin and decide who to settle there"
  integrate_leyawiin_decision_confirm:0 "For Anequina!"
+
+ anequina.0002.t:0 "Integration of Leyawiin"
+ anequina.0002.desc:0 "We have conquered Leyawiin and the lands surrounding it left of the Niben River. Only one question remains - who will get control of the city?\n\nWe can grant it to our distant relatives - Malapiit, they will surely be grateful and this will lead to the development their culture has not seen in a long time.\nOr we can settle it ourselves, ignoring Malapiit native to the area.\nNo matter what we do, it's obvious that Nibenese people won't be satisfied with what is happenning, unless we temper our ambitions and let them keep control of Leyawiin."
+ anequina.0002.a:0 "We shall grant Leyawiin to Malapiit"
+ anequina.0002.a.tt:0 "You will grant Leyawiin to Malapiit. This will lead to their culture spreading and floursihing in Leyawiing and lands around it."
+ anequina.0002.b:0 "We will claim Leyawiin for ourselves!"
+ anequina.0002.b.tt:0 "You will claim Leyawiin for your people"
+ anequina.0002.c:0 "Let Nibenese keep their city"
+ anequina.0002.c.tt:0 "You will let Nibenese keep Leyawiin"
 
  return_arenthia_decision:0 "Return Arenthia"
  return_arenthia_decision_desc:0 "Always a contested land between Khajiiti, Bosmers and Imperials, we can secure our claim on kingdom of Arenthia by holding onto it for long enough and settling our people there."

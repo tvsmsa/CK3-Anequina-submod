@@ -7,3 +7,33 @@ restored_anequina_modifier = {
     same_culture_opinion = 15
     zealot_opinion = -10
 }
+
+#Modifier for Malapiit
+malapiit_flourishing_modifier = {
+	icon = county_modifier_development_positive
+	development_growth_factor = 0.15
+	county_opinion_add = 10
+	build_speed = -0.1
+	build_gold_cost = -0.05
+}
+
+#Modifier for settling Malapiit in Leyawiin
+settled_malapiit_modifier = {
+    icon = diplomacy_positive
+    malapiit_opinion = 30
+    nibenese_opinion = -20
+}
+
+#Modifier for settling Anequinans in Leyawiin
+settled_anequinans_modifier = {
+    icon = diplomacy_positive
+    same_culture_opinion = 15
+    malapiit_opinion = -10
+    nibenese_opinion = -20
+}
+
+#Modifier for keeping Imperials in Leyawiin
+kept_leyawiin_modifier = {
+    icon = diplomacy_positive
+    nibenese_opinion = 15
+}
