@@ -13,13 +13,15 @@ restore_anequina_decision = {
     is_shown = {
 		is_ruler = yes
 		is_landed = yes
-        culture = { has_cultural_pillar = heritage_khajiiti }
 		NOT = { has_title = title:e_elsweyr }
 		has_feudal_like_government = yes
+        culture = culture:anequinan
+        NOT = { has_global_variable = anequina_restored }
 	}
 
     is_valid = {
         is_independent_ruler =  yes
+        is_at_war = no
         prestige_level >= 4
 		OR = {
 			has_primary_title = title:k_anequina
@@ -40,6 +42,7 @@ restore_anequina_decision = {
 		get_title = title:e_anequina
 		#No Event yet
 		#trigger_event = ek_major_decisions.0020
+        custom_tooltip = restore_anequina_decision_effect_tooltip
         hidden_effect = {
             title:k_rimmen = { save_scope_as = anequina_rimmen }
             title:k_orcrest = { save_scope_as = anequina_orcrest }
@@ -52,4 +55,86 @@ restore_anequina_decision = {
 		}
         set_global_variable = anequina_restored
 	}
+}
+
+integrate_leyawiin_decision = {
+    picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+    desc = integrate_leyawiin_decision_desc
+    selection_tooltip = integrate_leyawiin_decision_tooltip
+    major = yes
+
+    is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		has_title = title:e_anequina
+        culture = culture:anequinan
+        has_global_variable = anequina_restored
+        NOT = { has_global_variable = leyawiin_integrated }
+	}
+
+    is_valid = {
+        is_at_war = no
+        prestige_level >= 4
+        completely_controls = title:d_nomore
+        completely_controls = title:d_leyawiin
+	}
+
+    cost = {
+        gold = { value = 500 }
+    }
+
+    effect = {
+        get_title = title:k_leyawiin
+        custom_tooltip = integrate_leyawiin_decision_effect_tooltip
+        hidden_effect = {
+            title:k_leyawiin= { save_scope_as = anequina_leyawiin }
+            title:k_leyawiin = { set_de_jure_liege_title = title:e_anequina }
+		}
+        get_title = title:c_leyawiin
+        title:c_leyawiin = {
+				set_county_culture = root.culture
+				set_county_faith = root.faith
+		}
+        set_global_variable = leyawiin_integrated
+    }
+}
+
+return_arenthia_decision = {
+    picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+    desc = return_arenthia_decision_desc
+    selection_tooltip = return_arenthia_decision_tooltip
+    major = yes
+
+    is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		has_title = title:e_anequina
+        culture = culture:anequinan
+        has_global_variable = anequina_restored
+        NOT = { has_global_variable = arenthia_returned }
+	}
+
+    is_valid = {
+        is_at_war = no
+        prestige_level >= 4
+        #Need to fully control and have held title of Arenthia for 10 years
+        completely_controls = title:k_arenthia
+        has_title = title:k_arenthia
+        title:k_arenthia = { title_held_years >= 15 }
+        #Need capital of Arenthia to be of your culture
+        title:c_arenthia.culture = culture = root.culture
+	}
+
+    cost = {
+        gold = { value = 500 }
+    }
+
+    effect = {
+        custom_tooltip = return_arenthia_decision_effect_tooltip
+        hidden_effect = {
+            title:k_arenthia= { save_scope_as = anequina_leyawiin }
+            title:k_arenthia = { set_de_jure_liege_title = title:e_anequina }
+		}
+        set_global_variable = arenthia_returned
+    }
 }

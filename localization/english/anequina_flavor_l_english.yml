@@ -5,3 +5,15 @@
  restore_anequina_decision_tooltip:0 "It's time to restore our ancient glory"
  restore_anequina_decision_effect_tooltip:0 "You restore ancient empire of Anequina and all become de jure liege of all kingdoms beneath it"
  restore_anequina_decision_confirm:0 "It's time to restore our ancient glory"
+
+ integrate_leyawiin_decision:0 "Integrate Leyawiin"
+ integrate_leyawiin_decision_desc:0 "Although Leyawiin has been Imperial for most of its history, it was briefly under Khajiiti control during reign of Darloc Brae. If we were to control lands west of the mouth of Niben River perhaps we could integrate Leyawiin into our kingdom and settle our people there."
+ integrate_leyawiin_decision_tooltip:0 "Integrate Leyawiin"
+ integrate_leyawiin_decision_effect_tooltip:0  "By controlling lands west of the mouth of Niben River you can claim de jure sovereignty over Kingdom of Leyawiin and settle your people in its capital"
+ integrate_leyawiin_decision_confirm:0 "For Anequina!"
+
+ return_arenthia_decision:0 "Return Arenthia"
+ return_arenthia_decision_desc:0 "Always a contested land between Khajiiti, Bosmers and Imperials, we can secure our claim on kingdom of Arenthia by holding onto it for long enough and settling our people there."
+ return_arenthia_decision_tooltip:0 "Return Arenthia"
+ return_arenthia_decision_effect_tooltip:0  "By controlling kingdom of Arenthia and settling people of your culture in its capital you can formalise your control over it."
+ return_arenthia_decision_confirm:0 "Arenthia is ours!"
