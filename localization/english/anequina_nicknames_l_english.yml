@@ -1,3 +1,6 @@
 ﻿l_english: 
  nick_sharp_tongue:0 "the Sharp Tongue"
  nick_sharp_tongue_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] restored ancient kingdom of Anequina, earning nickname used by its founder in the process"
+
+ nick_darloc_brae_reborn:0 "Darloc Brae Reborn"
+ nick_darloc_brae_reborn_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] restored kingdom of Anequina to its greatest extent, when it was ruled by Darloc Brae"

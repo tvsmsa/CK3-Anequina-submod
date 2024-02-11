@@ -130,7 +130,7 @@ return_arenthia_decision = {
         has_title = title:k_arenthia
         #title:k_arenthia = { title_held_years >= 15 } Commented for testing 
         #Need capital of Arenthia to be of your culture
-        title:c_arenthia.culture = culture = root.culture
+        title:c_arenthia.culture = root.culture
 	}
 
     cost = {
@@ -152,74 +152,53 @@ return_arenthia_decision = {
     }
 }
 
-
-restore_dagon_pantheon_decision = {
+#Restore Darloc Brae's Kingdom
+restore_darloc_kingdom_decision = {
     picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
-    desc = restore_dagon_pantheon_decision_desc
-    selection_tooltip = restore_dagon_pantheon_decision_tooltip
+    desc = restore_darloc_kingdom_decision_desc
+    selection_tooltip = restore_darloc_kingdom_decision_tooltip
     major = yes
-
-    ai_check_interval = 120
 
     is_shown = {
 		is_ruler = yes
 		is_landed = yes
+		has_title = title:e_anequina
         culture = culture:anequinan
-        has_title = title:e_anequina
         has_global_variable = anequina_restored
-        NOT = { has_global_variable = dagon_part_of_two_moons }
+        NOT = { has_global_variable = restored_darloc_kingdom }
 	}
 
     is_valid = {
-        is_independent_ruler =  yes
-        is_at_war = no
-        piety_level >= 5
-        faith = {
-			any_holy_site = {
-				OR = {
-					county.holder = root
-					county.holder.top_liege = { this = root }
-				}
-				count>=3 #return to 4 after testing
-			}
-		}
+        #High prestige and high piety
+        prestige_level >= 4
+        piety_level >= 3
+        #Need to fully conquer Leyawiin
+        completely_controls = title:k_leyawiin
+        #Need high dev in newly conquered counties or other culture
         OR = {
-            has_trait = cynical
-            has_trait ambitious
-            #AND = {
-            #    has_trait = cynical
-            #    has_trait = ambitious
-            #}
-            #AND = {
-            #    has_trait = cynical
-            #    has_trait = callous
-            #}
-            #AND = {
-            #    has_trait = ambitious
-            #    has_trait = wrathful
-            #}
-            #AND = {
-                has_trait = ambitious
-            #    has_trait = callous
-            #}
+            title:c_leyawiin = {
+                development_level >= 20
+            }
+            title:c_leyawiin.culture = culture:nibenese
+            title:c_leyawiin.culture = culture:malapiit
         }
-        #NOT = {
-        #    has_trait = compassionate
-        #}
-	}
-
-    cost = {
-		piety = { value = 3000 }
-	}
+        OR = {
+            title:c_sleekcreek = {
+                development_level >= 20
+            }
+            title:c_arenthia = {
+                development_level >= 20
+            }
+        }
+        #You can't do this after just inheriting the throne. Shouldn't be a problem for character who was ruling for a while. Comment for testing
+        #title:e_anequina = { title_held_years >= 15 }
+    }
 
     effect = {
-        custom_tooltip = restore_dagon_pantheon_decision_effect_tooltip
-        hidden_effect = {
-            faith = {
-                remove_doctrine = doctrine_mehrunes_criminal
-                add_doctrine = doctrine_mehrunes_pantheon
-            }
-		}
-        set_global_variable = dagon_part_of_two_moons
-	}
+        custom_tooltip = restore_darloc_kingdom_decision_effect_tooltip
+        give_nickname = nick_darloc_brae_reborn
+        add_character_modifier = restored_darloc_kingdom_modifier
+        trigger_event = anequina.0004
+        set_global_variable = restored_darloc_kingdom
+    }
 }

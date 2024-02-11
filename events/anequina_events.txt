@@ -176,3 +176,44 @@ anequina.0003 = {
 		}
 	}
 }
+
+#Event after restoring Darloc Brae kingdom
+anequina.0004 = {
+	title = anequina.0004.t
+	desc = anequina.0004.desc
+	content_source = dlc_ek
+	theme = realm
+
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	#Choose Skingrad
+	option = {
+		name = anequina.0004.a
+		custom_tooltip = anequina.0004.a.tt
+		add_pressed_claim = title:k_skingrad
+	}
+
+	#Choose Torval
+	option = {
+		name = anequina.0004.b
+		custom_tooltip = anequina.0004.b.tt
+		add_pressed_claim = title:k_alabaster
+	}
+
+	#Don't expand
+	option = {
+		name = anequina.0004.c
+		custom_tooltip = anequina.0004.c.tt
+		every_sub_realm_county = {
+			limit = {
+				culture = { has_cultural_pillar = heritage_khajiiti }
+				title_province = { geographical_region = mundus_tamriel_elsweyr_anequina }
+			}
+			add_county_modifier = {
+				modifier = flourishing_culture_modifier
+				years = 50
+			}
+	}
+}

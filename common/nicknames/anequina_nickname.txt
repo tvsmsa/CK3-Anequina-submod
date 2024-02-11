@@ -1,1 +1,2 @@
 nick_sharp_tongue = {} #Nickname for restoring Anequina
+nick_darloc_brae_reborn = {} #Nickname for restoring Darloc Brae's kingdom

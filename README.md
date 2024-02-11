@@ -11,7 +11,7 @@ Anequina submod for Elder Kings 2
 
 	1.3) Return Arenthia
 	
-	1.4) Add Mehrunes Dagon to Pantheon
+	1.4) Restore Kingdom of Darloc Brae
 
 2) Modifiers:
 
@@ -20,6 +20,8 @@ Anequina submod for Elder Kings 2
 	2.2) Leyawiin - county modifier for Malaapit, modifiers for every choice (Malaapit, Anequinan, Nibenese)
 	
 	2.3) Arenthia - county modifier for Arenthia or Rawl'kha (Arenthia gets negative modifier if Rawl'kha is chosen), negative opinion for Bosmers (only Arenthi for now)
+	
+	2.4) Modifier for restoring Kingdom of Darloc Brae and then modifier if you decided to stop expansion
 
 3) Events for already existing decisions:
 
@@ -29,21 +31,21 @@ Anequina submod for Elder Kings 2
 	
 	3.3) Arenthia decision - can choose capital for Arenthia
 	
+	3.4) Event for restoring Kingdom of Darloc Brae and then deciding what direction to take
+	
 
 ## TO-DO:
 
-1) Decision to invade Skingrad. Need to do Restore Darloc Brae Empire decision first
+1) Do'krin special building in game (building itself is coded)
 
-2) Do'krin special building in game (building itself is coded)
+2) Pellitine decisions.
 
-3) Restore Darloc Brae Empire: conquer Arenthia and Leaywiin, max prestige level. Very good modifier for all Anequinan counties.
+3) Cyrodiil decisions.
 
-4) Alabasti decision possibly.
+4) Drive out Imperials minor decision (only for kingdom of Rimmen)
 
-5) More Skingrad and later Cyrodiil stuff.
+5) Stuff for interacting with Morrowind
 
-6) Drive out Imperials minor decision (only for kingdom of Rimmen)
+6) Mane version of Cyrodiil decisions
 
-7) Make Do'Krin holy site for Two Moons (on decision if possible).
-
-8) Add text for Dagon Decision and make him Merrunz, fix holy sites text and return to  4 (or possibly 5) holy sites
+7) Stress and Vassal opinion modifiers for decision events

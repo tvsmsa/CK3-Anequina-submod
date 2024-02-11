@@ -8,7 +8,7 @@
 
  anequina.0001.t:0 "Restoration of Kingdom of Anequina"
  anequina.0001.desc:0 "For the first time since formation of the Confederacy of Elsweyr, Kingdom of Anequina can once again claim itself independent. We have restored control over our ancestral lands, but with rest of Tamriel in chaos, a new opportunity arises. We can expand our domain even further and perhaps even restore ancient kingdom of Darloc Brae. Who knows, maybe we'll even surpass achievements of Golden Beast himself?"
- anequina.0001.a:0 "Anequina is restored"
+ anequina.0001.a:0 "Anequina is restored."
 
  integrate_leyawiin_decision:0 "Integrate Leyawiin"
  integrate_leyawiin_decision_desc:0 "Although Leyawiin has been Imperial for most of its history, it was briefly under Khajiiti control during the reign of Darloc Brae. If we were to control lands west of the mouth of Niben River, we could claim Leyawiin and integrate it into our kingdom. The only questions is - who will get the city of Leyawiin itself?"
@@ -18,11 +18,11 @@
 
  anequina.0002.t:0 "Integration of Leyawiin"
  anequina.0002.desc:0 "We have conquered Leyawiin and the lands surrounding it left of the Niben River. Only one question remains - who will get control of the city?\n\nWe can grant it to our distant relatives - Malapiit, they will surely be grateful and this will lead to the development their culture has not seen in a long time.\nOr we can settle it ourselves, ignoring Malapiit native to the area.\nNo matter what we do, it's obvious that Nibenese people won't be satisfied with what is happenning, unless we temper our ambitions and let them keep control of Leyawiin."
- anequina.0002.a:0 "We shall grant Leyawiin to Malapiit"
+ anequina.0002.a:0 "We shall grant Leyawiin to Malapiit."
  anequina.0002.a.tt:0 "You will grant Leyawiin to Malapiit. This will lead to their culture spreading and floursihing in Leyawiing and lands around it."
  anequina.0002.b:0 "We will claim Leyawiin for ourselves!"
  anequina.0002.b.tt:0 "You will claim Leyawiin for your people"
- anequina.0002.c:0 "Let Nibenese keep their city"
+ anequina.0002.c:0 "Let Nibenese keep their city."
  anequina.0002.c.tt:0 "You will let Nibenese keep Leyawiin"
 
  return_arenthia_decision:0 "Return Arenthia"
@@ -33,13 +33,24 @@
 
  anequina.0003.t:0 "Arenthia or Rawl'kha?"
  anequina.0003.desc:0 "We have managed to hold onto Arenthia long enough and settle enough of our people there to be able formalise our rule over the region.\n\nBut to do that, we need to choose capital of our new kingdom.\nWe can keep Arenthia as capital - it is major and important trade city, nestled on the fork of both the Crescent River and the Strid River.\nBut there is also an option to move capital to Rawl'kha - a holy city for every khajiit. This is where the Mane revealed the Riddle'Thar Epiphany and where one of the most important temples of our faith is located - the House of Dance."
- anequina.0003.a:0 "We will choose Rawl'kha"
+ anequina.0003.a:0 "We will choose Rawl'kha."
  anequina.0003.a.tt:0 "Rawl'kha will be new de jure capital of Kingdom of Arenthia, which will prove positive for its development. However such shift will have negative consequences for city of Arenthia"
- anequina.0003.b:0 "Arenthia is enough"
+ anequina.0003.b:0 "Arenthia is enough."
  anequina.0003.b.tt:"You will keep Arenthia as Kingdom's capital"
 
- restore_dagon_pantheon_decision:0 "Restore Dagon"
- restore_dagon_pantheon_decision_desc:0 "R"
- restore_dagon_pantheon_decision_tooltip:0 "R"
- restore_dagon_pantheon_decision_effect_tooltip:0 "R"
- restore_dagon_pantheon_decision_confirm:0 "R"
+ restore_darloc_kingdom_decision:0 "Restore Darloc Brae's Kingdom"
+ restore_darloc_kingdom_decision_desc:0 "By controlling Leyawiin and Arenthia you can proclaim ancient kingdom of Darloc Brae restored and decide what to do next."
+ restore_darloc_kingdom_decision_tooltip:0 "Restore Darloc Brae's Kingdom"
+ restore_darloc_kingdom_decision_effect_tooltip:0 "By claiming to have restored Darloc Brae's kingdom you can attempt to expand into Cyrodiil"
+ restore_darloc_kingdom_decision_confirm:0 "I am Darloc Brae Reborn!"
+
+ anequina.0004.t:0 "Kingdom of Darloc Brae"
+ anequina.0004.desc:0 "Through great trial and suffering I have restored Kingdom of Darloc Brae and none can doubt my ability to lead.\n\nBut still, we stand at the crossroads. We can accomplish what even the Golden Beast himself couldn't - expand into heartlands of Cyrodiil and perhaps even create a Khajiiti empire.\nWe can also continue our expansion in opposite direction - into the lands of Pelletine and try to reunite Elsweyr once more.\nOr we can stop our expansion and focus on developing what we already have."
+ anequina.0004.a:0 "Cyrodiil will be ours!"
+ anequina.0004.a.tt:0 "You will gain claim on Skingrad and unlock decisions focused on expanding your realm into Cyrodiil. You will still be able to unlock Pellitine decisions, but later."
+ anequina.0004.b:0 "We shall reunite Elsweyr under our rule."
+ anequina.0004.b.tt:0 "You will gain claim on Torval and unlock decisions focused on reuniting Elsweyr under Anequina. You will still be able to unlock Cyrodiil decisions, but later."
+ anequina.0004.c:0 "What we have is enough."
+ anequina.0004.c.tt:0 "You will focus on improving your current domain. You won't be able to unlock decisions focused on expanding into Cyrodiil or Pelletine."
+
+
