@@ -310,7 +310,10 @@ dismantle_mane_decision = {
 		NOT = { #Once an Emperor throws the challenge, he has only one chance to dismantle the Empire.
             has_character_flag = flag_anequina_challenging_mane
 		}
-        has_global_variable = anequina_south_expansion
+        OR = {
+            has_global_variable = anequina_south_expansion
+            has_global_variable = claimed_cyrodiil
+        }
 	}
 
 	is_valid = {
@@ -393,6 +396,97 @@ unite_elsweyr_anequina_decision = {
 	}
 	
 	ai_potential = {
+        always = yes
+	}
+
+	ai_will_do = { base = 100 }
+}
+
+#Invade Heartlands after conquering Bravil or Chorrol
+invade_heartlands_decision = {
+    picture = "gfx/interface/illustrations/decisions/ai_decision_title_drift.dds"
+
+	desc = invade_heartlands_decision_desc
+	selection_tooltip = invade_heartlands_decision_tooltip
+	major = yes
+
+	ai_check_interval = 120
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		has_title = title:e_anequina
+        NOT = {has_global_variable = invaded_heartlands}
+        #Need to conquer Skingrad first
+        has_global_variable = conquered_skingrad
+	}
+
+	is_valid = {
+		#Control Either chorrol or bravil
+        OR = {
+            completely_controls = title:k_chorrol
+            completely_controls = title:k_bravil
+        }
+	}
+
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_independent_ruler = yes
+		is_at_war = no
+	}
+
+	effect = {
+		custom_tooltip = invade_heartlands_decision_effect_tooltip
+        add_pressed_claim = title:k_heartlands
+		set_global_variable = invaded_heartlands
+	}
+	
+	ai_potential = {
+        always = yes
+	}
+
+	ai_will_do = { base = 100 }
+}
+
+claim_cyrodiil_decision = {
+    picture = "gfx/interface/illustrations/decisions/ai_decision_title_drift.dds"
+
+	desc = claim_cyrodiil_decision_desc
+	selection_tooltip = claim_cyrodiil_decision_tooltip
+	major = yes
+
+	ai_check_interval = 120
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		has_title = title:e_anequina
+        NOT = {has_global_variable = claimed_cyrodiil}
+        #Need to conquer Heartlands first
+        has_global_variable = invaded_heartlands
+	}
+
+    is_valid = {
+        #Control Heartlands, Skingrad and then 3 out of other Cyrodiilian kingdoms
+        completely_controls = title:k_heartlands
+        completely_controls = title:k_skingrad
+        completely_controls = title:k_chorrol
+        completely_controls = title:k_bravil
+        completely_controls = title:d_cropsford
+        OR = {
+            completely_controls = title:k_kvatch
+            completely_controls = title:k_cheydinhal
+            completely_controls = title:k_bruma
+        }
+    }
+
+    effect = {
+        get_title = title:e_cyrodiil
+        set_global_variable = claimed_cyrodiil
+    }
+
+    ai_potential = {
         always = yes
 	}
 

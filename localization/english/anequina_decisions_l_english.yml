@@ -78,3 +78,14 @@
  unite_elsweyr_anequina_decision_effect_tooltip:0 "You will reunite Elsweyr"
  unite_elsweyr_anequina_decision_confirm:0 "Finally, Elsweyr is whole once more."
 
+ invade_heartlands_decision:0 "Invade Heartlands"
+ invade_heartlands_decision_desc:0 "With conquest of Skingrad we have an opportunity to take one of the most important regions of Tamriel - Cyrodiilian Heartlands. But to do that we need to stenghten our hold on Cyrodiil first."
+ invade_heartlands_decision_tooltip:0 "Invade Heartlands"
+ invade_heartlands_decision_effect_tooltip:0 "You will gain claim on Kingdom of Heartlands, after that you will have an opportunity to form Empire of Cyrodiil"
+ invade_heartlands_decision_confirm:0 "Invade Heartlands"
+
+ claim_cyrodiil_decision:0 "Claim Cyrodiil"
+ claim_cyrodiil_decision_desc:0 "After conquering center of Imperial Province we have a chance to claim entirety of Cyrodiil for ourselves - provided we control enough of it."
+ claim_cyrodiil_decision_tooltip:0 "After conquering center of Imperial Province we have a chance to claim entirety of Cyrodiil for ourselves - provided we control enough of it."
+ claim_cyrodiil_decision_effect_tooltip:0 "You will get Empire of Cyrodiil and decide what to do with it"
+ claim_cyrodiil_decision_confirm:0 "Cyrodiil belongs to Anequina"

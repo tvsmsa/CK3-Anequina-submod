@@ -14,6 +14,14 @@ Anequina submod for Elder Kings 2
 	1.4) Restore Kingdom of Darloc Brae
 	
 	1.5) Decision for conquering Skingrad
+	
+	1.6) Decision for getting claim of Elsweyr
+	
+	1.7) Decision for reuniting Elsweyr
+
+	1.8) Decision for invading Heartlands
+
+	1.9) Decision for getting Empire of Cyrodiil
 
 2) Modifiers:
 
@@ -35,6 +43,8 @@ Anequina submod for Elder Kings 2
 	
 	3.4) Event for restoring Kingdom of Darloc Brae and then deciding what direction to take
 	
+	3.5) Event when getting claim on Elsweyr
+	
 
 ## TO-DO:
 
@@ -51,3 +61,7 @@ Anequina submod for Elder Kings 2
 6) Mane version of Cyrodiil decisions
 
 7) Stress and Vassal opinion modifiers for decision events
+
+8) Fix Xylo River ?
+
+9) Empire of Tamriel: Anequina Edition
