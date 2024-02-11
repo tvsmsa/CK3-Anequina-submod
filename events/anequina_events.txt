@@ -193,6 +193,7 @@ anequina.0004 = {
 		name = anequina.0004.a
 		custom_tooltip = anequina.0004.a.tt
 		add_pressed_claim = title:k_skingrad
+		set_global_variable = anequina_cyrodiil_expansion
 	}
 
 	#Choose Torval

@@ -53,4 +53,9 @@
  anequina.0004.c:0 "What we have is enough."
  anequina.0004.c.tt:0 "You will focus on improving your current domain. You won't be able to unlock decisions focused on expanding into Cyrodiil or Pelletine."
 
+ conquer_skingrad_decision:0 "Conquer Skingrad"
+ conquer_skingrad_decision_desc:0 "By conquering the entirety of Skingrad and installing a sympathetic ruler we can add this kingdom to our growing realm."
+ conquer_skingrad_decision_tooltip:0 "Conquer Skingrad"
+ conquer_skingrad_decision_confirm:0 "Conquer Skingrad"
+
 

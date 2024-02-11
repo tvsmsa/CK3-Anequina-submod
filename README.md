@@ -12,6 +12,8 @@ Anequina submod for Elder Kings 2
 	1.3) Return Arenthia
 	
 	1.4) Restore Kingdom of Darloc Brae
+	
+	1.5) Decision for conquering Skingrad
 
 2) Modifiers:
 
@@ -40,7 +42,7 @@ Anequina submod for Elder Kings 2
 
 2) Pellitine decisions.
 
-3) Cyrodiil decisions.
+3) Cyrodiil decisions (Skingrad completed).
 
 4) Drive out Imperials minor decision (only for kingdom of Rimmen)
 
