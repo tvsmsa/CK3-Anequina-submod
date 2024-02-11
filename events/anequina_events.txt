@@ -216,5 +216,61 @@ anequina.0004 = {
 				modifier = flourishing_culture_modifier
 				years = 50
 			}
+		}
+	}
+}
+
+anequina.0005 = {
+	type = character_event
+	title = anequina.0005.t
+	desc = anequina.0005.desc
+	theme = war
+	left_portrait = {
+		character = scope:anequina_emperor
+		animation = anger
+	}
+	right_portrait = {
+		character = scope:mane
+		animation = disgust
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_combat_2"
+		save_scope_as = anequina_emperor
+		title:e_elsweyr.holder = {
+			save_scope_as = mane
+			trigger_event = anequina.0006
+		}
+		hidden_effect = {
+			add_character_flag = {
+				flag = flag_anequina_challenging_mane
+			}
+		}
+	}
+	option = {
+		name = anequina.0005.a
+		start_war = {
+			casus_belli = dismantle_holy_pretender_cb
+			target = title:e_elsweyr.holder
+		}
+	}
+}
+
+#Event for Mane
+anequina.0006 = {
+	type = character_event
+	title = anequina.0006.t
+	desc = anequina.0006.desc
+	theme = war
+	left_portrait = {
+		character = anequina_emperor
+		animation = anger
+	}
+	right_portrait = {
+		character = scope:mane
+		animation = disgust
+	}
+	option = {
+		name = anequina.0006.a
 	}
 }

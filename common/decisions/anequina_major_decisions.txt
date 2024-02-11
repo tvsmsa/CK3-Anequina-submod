@@ -277,4 +277,74 @@ conquer_skingrad_decision = {
         title:k_skingrad = { set_de_jure_liege_title = title:e_anequina }
         set_global_variable = conquered_skingrad
     }
+    ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
 }
+
+#Shatter Mane's Realm (base game dismantle HRE decision) NEED TO FIX CB
+#dismantle_mane_decision = {
+#	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+#
+#	desc = dismantle_mane_decision_desc
+#	selection_tooltip = dismantle_mane_decision_tooltip
+#	major = yes
+#
+#	ai_check_interval = 120
+#
+#	is_shown = {
+#		exists = title:e_elsweyr.holder #Must exist in the first place...
+#		NOT = {
+#			root = title:e_elsweyr.holder #That'd be awkward...
+#		}
+#		is_ruler = yes
+#		is_landed = yes
+#		has_title = title:e_anequina
+#		NOT = { #Once an Emperor throws the challenge, he has only one chance to dismantle the Empire.
+#            has_character_flag = flag_anequina_challenging_mane
+#		}
+#	}
+#
+#	is_valid = {
+#        prestige_level >= 3
+#		piety_level >= 5
+#		#Control Anequina and then either Alabaster or Cyrodiil
+#		completely_controls_region = mundus_tamriel_elsweyr_anequina
+#        OR = {
+#            completely_controls_region = mundus_tamriel_cyrodiil
+#            completely_controls = title:k_alabaster
+#        }
+#	}
+#
+#	is_valid_showing_failures_only = {
+#		is_capable_adult = yes
+#		is_imprisoned = no
+#		is_independent_ruler = yes
+#		is_at_war = no
+#	}
+#
+#	cost = {
+#		prestige = 1000
+#        piety = 2000
+#	}
+#
+#	effect = {
+#		custom_tooltip = dismantle_mane_decision_effect_tooltip
+#       add_piety_level = -1
+#		trigger_event = anequina.0005
+#	}
+#	
+#	ai_potential = {
+#        NOT = {
+#            has_trait = zealous
+#        }
+#	}
+#
+#	ai_will_do = {
+#		base = 100
+#	}
+#}

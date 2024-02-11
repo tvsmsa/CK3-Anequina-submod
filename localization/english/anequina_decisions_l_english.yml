@@ -58,4 +58,17 @@
  conquer_skingrad_decision_tooltip:0 "Conquer Skingrad"
  conquer_skingrad_decision_confirm:0 "Conquer Skingrad"
 
+ dismantle_mane_decision:0 "Dismantle the power of Mane"
+ dismantle_mane_decision_desc:0 "With our constant expansion it was inevitable that we will come to clashes with Mane. If we have sufficient hold on Southern Elsweyr or Cyrodiil we can launch war to shatter Mane's secular power and bring the region under our control."
+ dismantle_mane_decision_tooltip:0 "A war to shatter Mane's realm will begin."
+ dismantle_mane_decision_effect_tooltip:0 "A war to shatter Mane's realm will begin"
+ dismantle_mane_decision_confirm:0 "We will rule Elsweyr!"
+
+ anequina.0005.t:0 "The Mane"
+ anequina.0005.desc:0 "For a long time our power was growing and it was inevitable that it will end in confrontation with Mane. Although they still are our spiritual leader, the time has come for us to reunite Elsweyr and lead it into the future."
+ anequina.0005.a:0 "For Anequina!"
+
+ anequina.0006.t:0 "Ambitions of Anequina"
+ anequina.0006.desc:0 "For a long time the power of Kingodm of Anequina was growing and it was inevitable that it will end in confrontation with us. The time has come to settle our differnces on battlefield!"
+ anequina.0006.a:0 "For The Mane!"
 
