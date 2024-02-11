@@ -49,7 +49,7 @@
  anequina.0004.a:0 "Cyrodiil will be ours!"
  anequina.0004.a.tt:0 "You will gain claim on Skingrad and unlock decisions focused on expanding your realm into Cyrodiil. You will still be able to unlock Pellitine decisions, but later."
  anequina.0004.b:0 "We shall reunite Elsweyr under our rule."
- anequina.0004.b.tt:0 "You will gain claim on Torval and unlock decisions focused on reuniting Elsweyr under Anequina. You will still be able to unlock Cyrodiil decisions, but later."
+ anequina.0004.b.tt:0 "You will gain claim on Al'basti and unlock decisions focused on reuniting Elsweyr under Anequina. You will still be able to unlock Cyrodiil decisions, but later."
  anequina.0004.c:0 "What we have is enough."
  anequina.0004.c.tt:0 "You will focus on improving your current domain. You won't be able to unlock decisions focused on expanding into Cyrodiil or Pelletine."
 
@@ -60,8 +60,8 @@
 
  dismantle_mane_decision:0 "Dismantle the power of Mane"
  dismantle_mane_decision_desc:0 "With our constant expansion it was inevitable that we will come to clashes with Mane. If we have sufficient hold on Southern Elsweyr or Cyrodiil we can launch war to shatter Mane's secular power and bring the region under our control."
- dismantle_mane_decision_tooltip:0 "A war to shatter Mane's realm will begin."
- dismantle_mane_decision_effect_tooltip:0 "A war to shatter Mane's realm will begin"
+ dismantle_mane_decision_tooltip:0 "You will get claim on Confederacy of Elsweyr."
+ dismantle_mane_decision_effect_tooltip:0 "You will get claim on Confederacy of Elsweyr"
  dismantle_mane_decision_confirm:0 "We will rule Elsweyr!"
 
  anequina.0005.t:0 "The Mane"
@@ -71,4 +71,10 @@
  anequina.0006.t:0 "Ambitions of Anequina"
  anequina.0006.desc:0 "For a long time the power of Kingodm of Anequina was growing and it was inevitable that it will end in confrontation with us. The time has come to settle our differnces on battlefield!"
  anequina.0006.a:0 "For The Mane!"
+
+ unite_elsweyr_anequina_decision:0 "Reunite Elsweyr"
+ unite_elsweyr_anequina_decision_desc:0 "The time has come for us to reunite Elsweyr."
+ unite_elsweyr_anequina_decision_tooltip:0 "You will reunite Elsweyr."
+ unite_elsweyr_anequina_decision_effect_tooltip:0 "You will reunite Elsweyr"
+ unite_elsweyr_anequina_decision_confirm:0 "Finally, Elsweyr is whole once more."
 

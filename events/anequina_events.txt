@@ -201,6 +201,7 @@ anequina.0004 = {
 		name = anequina.0004.b
 		custom_tooltip = anequina.0004.b.tt
 		add_pressed_claim = title:k_alabaster
+		set_global_variable = anequina_south_expansion
 	}
 
 	#Don't expand
@@ -249,10 +250,7 @@ anequina.0005 = {
 	}
 	option = {
 		name = anequina.0005.a
-		start_war = {
-			casus_belli = dismantle_holy_pretender_cb
-			target = title:e_elsweyr.holder
-		}
+		add_pressed_claim = title:e_elsweyr
 	}
 }
 
