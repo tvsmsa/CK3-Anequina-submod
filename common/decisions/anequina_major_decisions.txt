@@ -190,8 +190,11 @@ restore_darloc_kingdom_decision = {
         #High prestige and high piety
         prestige_level >= 4
         piety_level >= 3
-        #Need to fully conquer Leyawiin
+        #Need to fully control Anequina
+        completely_controls_region = mundus_tamriel_elsweyr_anequina
+        #Need to fully conquer Leyawiin and Arenthia
         completely_controls = title:k_leyawiin
+        completely_controls = title:k_arenthia
         #Need high dev in newly conquered counties or other culture
         OR = {
             title:c_leyawiin = {
@@ -528,10 +531,8 @@ reform_two_moons_decision = {
         prestige_level >=5
         has_realm_law = crown_authority_3
         NOT = { has_trait = zealous }
-        OR = {
-            has_trait = ambitious
-            has_trait = cynical
-        } 
+        has_trait = ambitious
+        has_trait = cynical
     }
 
     cost = {
@@ -540,6 +541,7 @@ reform_two_moons_decision = {
 	}
 
     effect = {
+        custom_tooltip = reform_two_moons_decision_effect_tooltip
         faith = {
                 remove_doctrine = doctrine_theocracy_temporal
                 add_doctrine = doctrine_theocracy_lay_clergy
@@ -552,8 +554,61 @@ reform_two_moons_decision = {
         #    add_title_law = partition_succession_law
         #}
         get_title = title:d_mane
+        #add_character_modifier = reformed_two_moons_modifier
         #destroy_title = title:d_mane
+        every_vassal_or_below = {
+			limit = {
+				faith = root.faith
+                has_vassal_stance = zealot
+			}
+            custom = every_zealot_vassal
+			add_opinion = {
+				modifier = reformed_two_moons_opinion
+				target = root
+			}
+        }
         set_global_variable = reformed_two_moons
+    }
+
+    ai_potential = {
+        always = yes
+	}
+
+	ai_will_do = { base = 100 }
+}
+
+
+#Return Arenthia Bosmer version
+return_arenthia_bosmer_decision = {
+    picture = "gfx/interface/illustrations/decisions/ai_decision_title_drift.dds"
+
+	desc = return_arenthia_bosmer_decision_desc
+	selection_tooltip = return_arenthia_bosmer_decision_tooltip
+	major = yes
+
+	ai_check_interval = 120
+    is_shown = {
+        is_ruler = yes
+		is_landed = yes
+        culture = { has_cultural_pillar = heritage_bosmeri }
+        NOT = { title:e_valenwood = { is_de_jure_liege_or_above_target = title:k_arenthia } }
+    }
+
+    is_valid = {
+        completely_controls = title:k_arenthia
+        title:c_arenthia.culture = { has_cultural_pillar = heritage_bosmeri }
+        OR = {
+            title:c_arenthia.culture = root.culture
+            title:c_arenthia.culture = culture:arenthi
+            title:c_arenthia.culture = culture:bosmer
+        }
+        title:c_arenthia = { development_level >= 10 }
+    }
+
+    effect = {
+        custom_tooltip = return_arenthia__bosmer_decision_effect_tooltip
+        title:k_arenthia = { set_de_jure_liege_title = title:e_valenwood }
+        add_character_modifier = returned_arenthia_bosmer_modifier
     }
 
     ai_potential = {

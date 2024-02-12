@@ -1,0 +1,3 @@
+reformed_two_moons_opinion = {
+    opinion = -100
+}

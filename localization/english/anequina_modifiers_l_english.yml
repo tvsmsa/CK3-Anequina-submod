@@ -3,28 +3,34 @@
  restored_anequina_modifier_desc:0 "You restored kingdom of Anequina, earning respect from your people, but undermining the Mane in the process."
 
  malapiit_flourishing_modifier:0 "Malapiit Flourishing"
- malapiit_flourishing_modifier_desc:0 "For the first time in thousands of years Malapiit culture fully controls left side of Niben's Mouth, this led to their culture floursihing"
+ malapiit_flourishing_modifier_desc:0 "For the first time in thousands of years Malapiit culture fully controls left side of Niben's Mouth, this led to their culture floursihing."
  
  settled_malapiit_modifier:0 "Settled Malapiit"
- settled_malapiit_modifier_desc:0 "This character granted Leyawiin and surrounding areas to Malapiit, earning their gratitude and angering Nibenese"
+ settled_malapiit_modifier_desc:0 "This character granted Leyawiin and surrounding areas to Malapiit, earning their gratitude and angering Nibenese."
 
  settled_anequinans_modifier:0 "Settled Anequinans"
- settled_anequinans_modifier_desc:0 "This character decided to settle their own people in Leyawiin, earning anger from Nibenese"
+ settled_anequinans_modifier_desc:0 "This character decided to settle their own people in Leyawiin, earning anger from Nibenese."
 
  kept_leyawiin_modifier:0 "Kept Leyawiin Nibenese"
- kept_leyawiin_modifier_desc:0 "This character did not settle their own people or anyone else in Leyawiin after conquering it, earning gratitude from Nibenese people"
+ kept_leyawiin_modifier_desc:0 "This character did not settle their own people or anyone else in Leyawiin after conquering it, earning gratitude from Nibenese people."
 
  returned_arenthia_modifier:0 "Returned Arenthia"
- returned_arenthia_modifier_desc:0 "This character returned Arenthia to Khajiiti rule, angering their Bosmer neighbours with this act"
+ returned_arenthia_modifier_desc:0 "This character returned Arenthia to Khajiiti rule, angering their Bosmer neighbours with this act."
  
  rawlkha_capital_modifier:0 "New Khajiiti kingdom capital"
- rawlkha_capital_modifier_desc:0 "This city was chosen as capital of recently established Khajiiti kingdom"
+ rawlkha_capital_modifier_desc:0 "This city was chosen as capital of recently established Khajiiti kingdom."
 
  arenthia_capital_modifier:0 "New Khajiiti kingdom capital"
- arenthia_capital_modifier_desc:0 "This city was chosen as capital of recently established Khajiiti kingdom"
+ arenthia_capital_modifier_desc:0 "This city was chosen as capital of recently established Khajiiti kingdom."
 
  passed_over_as_capital_modifier:0 "Passed over as capital"
- passed_over_as_capital_modifier_desc:0 "This city was passed over as capital in favor of Rawl'kha, this led to negative economic consequences"
+ passed_over_as_capital_modifier_desc:0 "This city was passed over as capital in favor of Rawl'kha, this led to negative economic consequences."
 
  restored_darloc_kingdom_modifier:0 "Restored Darloc Brae's kingdom"
- restored_darloc_kingdom_modifier_desc:0 "This character restored Anequina to its largest territorial extent in history"
+ restored_darloc_kingdom_modifier_desc:0 "This character restored Anequina to its largest territorial extent in history."
+
+ reformed_two_moons_modifier:0 "Head of Khajiiti faith"
+ reformed_two_moons_modifier_desc:0 "This character proclaimed themselves head of Khajiiti faith, taking the title from the Mane."
+
+ returned_arenthia_bosmer_modifier:0 "Returned Arenthia"
+ returned_arenthia_bosmer_modifier_desc:0 "This characther returned Arenthia to Bosmer."

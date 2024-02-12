@@ -89,3 +89,15 @@
  claim_cyrodiil_decision_tooltip:0 "After conquering center of Imperial Province we have a chance to claim entirety of Cyrodiil for ourselves - provided we control enough of it."
  claim_cyrodiil_decision_effect_tooltip:0 "You will get Empire of Cyrodiil and decide what to do with it"
  claim_cyrodiil_decision_confirm:0 "Cyrodiil belongs to Anequina"
+ 
+ return_arenthia_bosmer_decision:0 "Return Arenthia"
+ return_arenthia_bosmer_decision_desc:0 "In their ever-growing greed for expansion Khajiit took Arenthia from us. But we do not accept that. If we were to reconquer it back from them and populate Arenthia with Bosmer, we could bring it back under Valenwood's control."
+ return_arenthia_bosmer_decision_tooltip:0 "In their ever-growing greed for expansion Khajiit took Arenthia from us. But we do not accept that. If we were to reconquer it back from them and populate Arenthia with Bosmer, we could bring it back under Valenwood's control."
+ return_arenthia__bosmer_decision_effect_tooltip:0 "You will bring Arenthia back into de jure Valenwood"
+ return_arenthia_bosmer_decision_confirm:0 "Arenthia will be Bosmeri!"
+
+ reform_two_moons_decision:0 "Reform Two Moons Faith"
+ reform_two_moons_decision_desc:0 "We have conquered Cyrodiil, reunited Elsweyr and the Mane themselves is our servant. It is time for our dynasty to finally lead faithful Khajiit and not Mane."
+ reform_two_moons_decision_tooltip:0 "We have conquered Cyrodiil, reunited Elsweyr and the Mane themselves is our servant. It is time for our dynasty to finally lead faithful Khajiit."
+ reform_two_moons_decision_effect_tooltip:0 "You will become new Head of Faith of Two Moons Dance. Religious vassals will not be happy with that."
+ reform_two_moons_decision_confirm:0 "We will lead the faithful"

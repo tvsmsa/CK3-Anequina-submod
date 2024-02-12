@@ -81,3 +81,17 @@ restored_darloc_kingdom_modifier = {
     prowess = 5
     same_culture_opinion = 15
 }
+
+#Modifier for Bosmers
+returned_arenthia_bosmer_modifier = {
+    icon = martial_positive
+    martial = 3
+    same_culture_opinion = 15
+    anequinan_opinion = -10
+}
+
+#Modifier for Reforming Two Moons. Zealots are really not happy about that
+reformed_two_moons_modifier = {
+    icon = piety_negative
+    zealot_opinion = -100
+}

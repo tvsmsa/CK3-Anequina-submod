@@ -9,7 +9,7 @@ Anequina submod for Elder Kings 2
 
 	1.2) Integrate Leyawiin	
 
-	1.3) Return Arenthia
+	1.3) Return Arenthia (Also decision for Bosmers to return it).
 	
 	1.4) Restore Kingdom of Darloc Brae
 	
@@ -22,6 +22,8 @@ Anequina submod for Elder Kings 2
 	1.8) Decision for invading Heartlands
 
 	1.9) Decision for getting Empire of Cyrodiil
+	
+	1.10) Decision to become Head of Faith of Two-Moons Dance
 
 2) Modifiers:
 
@@ -29,9 +31,11 @@ Anequina submod for Elder Kings 2
 	
 	2.2) Leyawiin - county modifier for Malaapit, modifiers for every choice (Malaapit, Anequinan, Nibenese)
 	
-	2.3) Arenthia - county modifier for Arenthia or Rawl'kha (Arenthia gets negative modifier if Rawl'kha is chosen), negative opinion for Bosmers (only Arenthi for now)
+	2.3) Arenthia - county modifier for Arenthia or Rawl'kha (Arenthia gets negative modifier if Rawl'kha is chosen), negative opinion for Bosmers (only Arenthi for now).
 	
 	2.4) Modifier for restoring Kingdom of Darloc Brae and then modifier if you decided to stop expansion
+	
+	2.5) Modifier for Bosmers for returning Arenthia
 
 3) Events for already existing decisions:
 
@@ -54,14 +58,12 @@ Anequina submod for Elder Kings 2
 
 3) Cyrodiil decisions (Skingrad completed).
 
-4) Drive out Imperials minor decision (only for kingdom of Rimmen)
+4) Stuff for interacting with Morrowind
 
-5) Stuff for interacting with Morrowind
+5) Mane version of Cyrodiil decisions
 
-6) Mane version of Cyrodiil decisions
+6) Stress and Vassal opinion modifiers for decision events
 
-7) Stress and Vassal opinion modifiers for decision events
+7) Fix Xylo River ?
 
-8) Fix Xylo River ?
-
-9) Empire of Tamriel: Anequina Edition
+8) Empire of Tamriel: Anequina Edition
