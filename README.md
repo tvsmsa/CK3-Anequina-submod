@@ -49,21 +49,23 @@ Anequina submod for Elder Kings 2
 	
 	3.5) Event when getting claim on Elsweyr
 	
+	3.6) Event for claiming Cyrodiil
+	
 
 ## TO-DO:
 
 1) Do'krin special building in game (building itself is coded)
 
-2) Pellitine decisions.
+2) Stuff for interacting with Morrowind
 
-3) Cyrodiil decisions (Skingrad completed).
+3) Mane version of Cyrodiil decisions
 
-4) Stuff for interacting with Morrowind
+4) Stress and Vassal opinion modifiers for decision events
 
-5) Mane version of Cyrodiil decisions
+5) Fix Xylo River ?
 
-6) Stress and Vassal opinion modifiers for decision events
+6) Empire of Tamriel: Anequina Edition
 
-7) Fix Xylo River ?
+7) Change Darloc Brae modifier to Dynasty modifier
 
-8) Empire of Tamriel: Anequina Edition
+8) Allow recruitment of Imperial MAA after conquest of Cyrodiil

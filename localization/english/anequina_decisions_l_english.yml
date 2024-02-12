@@ -2,7 +2,7 @@
 
  restore_anequina_decision:0 "Restore Anequina"
  restore_anequina_decision_desc:0 "Before the formation of Confederacy of Elsweyr and rule of Mane, Anequina was powerful and independent kingdom for thousands of years. Although what realms exist today are far cry from our glorious past, if Northern Elsweyr was once more unified under a strong ruler perhaps we could make steps toward reclaiming our power."
- restore_anequina_decision_tooltip:0 "It's time to restore our ancient glory"
+ restore_anequina_decision_tooltip:0 "Kingdom of Anequina will be restored"
  restore_anequina_decision_effect_tooltip:0 "You restore ancient kingdom of Anequina and become de jure liege of all kingdoms in the region. You will gain access to new decisions focused on expanding your realm."
  restore_anequina_decision_confirm:0 "It's time to restore our ancient glory"
 
@@ -12,7 +12,7 @@
 
  integrate_leyawiin_decision:0 "Integrate Leyawiin"
  integrate_leyawiin_decision_desc:0 "Although Leyawiin has been Imperial for most of its history, it was briefly under Khajiiti control during the reign of Darloc Brae. If we were to control lands west of the mouth of Niben River, we could claim Leyawiin and integrate it into our kingdom. The only questions is - who will get the city of Leyawiin itself?"
- integrate_leyawiin_decision_tooltip:0 "Integrate Leyawiin"
+ integrate_leyawiin_decision_tooltip:0 "Leyawiin will be integrated into Kingdom of Anequina"
  integrate_leyawiin_decision_effect_tooltip:0  "By controlling lands west of the mouth of Niben River you can claim sovereignty over Kingdom of Leyawiin and decide who to settle there"
  integrate_leyawiin_decision_confirm:0 "For Anequina!"
 
@@ -27,7 +27,7 @@
 
  return_arenthia_decision:0 "Return Arenthia"
  return_arenthia_decision_desc:0 "Always a contested land between Khajiiti, Bosmers and Imperials, we can secure our claim on kingdom of Arenthia by holding onto it for long enough and settling our people there."
- return_arenthia_decision_tooltip:0 "Return Arenthia"
+ return_arenthia_decision_tooltip:0 "Arenthia will become de jure vassal of Kingdom of Anequina"
  return_arenthia_decision_effect_tooltip:0  "By controlling the entirety of kingdom of Arenthia and settling people of your culture in its de jure capital you can formalise your control over it."
  return_arenthia_decision_confirm:0 "Arenthia is ours!"
 
@@ -58,13 +58,13 @@
  conquer_skingrad_decision_tooltip:0 "Conquer Skingrad"
  conquer_skingrad_decision_confirm:0 "Conquer Skingrad"
 
- dismantle_mane_decision:0 "Dismantle the power of Mane"
- dismantle_mane_decision_desc:0 "With our constant expansion it was inevitable that we will come to clashes with Mane. If we have sufficient hold on Southern Elsweyr or Cyrodiil we can launch war to shatter Mane's secular power and bring the region under our control."
+ dismantle_mane_decision:0 "Claim Pelletine"
+ dismantle_mane_decision_desc:0 "With our constant expansion it was inevitable that we will come to clashes with Mane. If we have sufficient hold on Southern Elsweyr or Cyrodiil, we can claim Pelletine and then launch war to bring the region under our control."
  dismantle_mane_decision_tooltip:0 "You will get claim on Confederacy of Elsweyr."
  dismantle_mane_decision_effect_tooltip:0 "You will get claim on Confederacy of Elsweyr"
  dismantle_mane_decision_confirm:0 "We will rule Elsweyr!"
 
- anequina.0005.t:0 "The Mane"
+ anequina.0005.t:0 "Ambitions of Anequina"
  anequina.0005.desc:0 "For a long time our power was growing and it was inevitable that it will end in confrontation with Mane. Although they still are our spiritual leader, the time has come for us to reunite Elsweyr and lead it into the future."
  anequina.0005.a:0 "For Anequina!"
 
@@ -75,11 +75,11 @@
  unite_elsweyr_anequina_decision:0 "Reunite Elsweyr"
  unite_elsweyr_anequina_decision_desc:0 "The time has come for us to reunite Elsweyr."
  unite_elsweyr_anequina_decision_tooltip:0 "You will reunite Elsweyr."
- unite_elsweyr_anequina_decision_effect_tooltip:0 "You will reunite Elsweyr"
+ unite_elsweyr_anequina_decision_effect_tooltip:0 "You will reunite Elsweyr. Claim on Skingrad and decisions focusing on conquest of Cyrodiil will be added, if not completed yet."
  unite_elsweyr_anequina_decision_confirm:0 "Finally, Elsweyr is whole once more."
 
  invade_heartlands_decision:0 "Invade Heartlands"
- invade_heartlands_decision_desc:0 "With conquest of Skingrad we have an opportunity to take one of the most important regions of Tamriel - Cyrodiilian Heartlands. But to do that we need to stenghten our hold on Cyrodiil first."
+ invade_heartlands_decision_desc:0 "With conquest of Skingrad we have an opportunity to take one of the most important regions of Tamriel - Cyrodiilian Heartlands. But to do that we need to stengthen our hold on Cyrodiil first."
  invade_heartlands_decision_tooltip:0 "Invade Heartlands"
  invade_heartlands_decision_effect_tooltip:0 "You will gain claim on Kingdom of Heartlands, after that you will have an opportunity to form Empire of Cyrodiil"
  invade_heartlands_decision_confirm:0 "Invade Heartlands"
@@ -87,7 +87,7 @@
  claim_cyrodiil_decision:0 "Claim Cyrodiil"
  claim_cyrodiil_decision_desc:0 "After conquering center of Imperial Province we have a chance to claim entirety of Cyrodiil for ourselves - provided we control enough of it."
  claim_cyrodiil_decision_tooltip:0 "After conquering center of Imperial Province we have a chance to claim entirety of Cyrodiil for ourselves - provided we control enough of it."
- claim_cyrodiil_decision_effect_tooltip:0 "You will get Empire of Cyrodiil and decide what to do with it"
+ claim_cyrodiil_decision_effect_tooltip:0 "Kingdom of Anequina will become de jure liege of kingdoms of Cyrodiil."
  claim_cyrodiil_decision_confirm:0 "Cyrodiil belongs to Anequina"
  
  return_arenthia_bosmer_decision:0 "Return Arenthia"
@@ -101,3 +101,12 @@
  reform_two_moons_decision_tooltip:0 "We have conquered Cyrodiil, reunited Elsweyr and the Mane themselves is our servant. It is time for our dynasty to finally lead faithful Khajiit."
  reform_two_moons_decision_effect_tooltip:0 "You will become new Head of Faith of Two Moons Dance. Religious vassals will not be happy with that."
  reform_two_moons_decision_confirm:0 "We will lead the faithful"
+
+ anequina.0007.t:0 "Conquest of Cyrodiil"
+ anequina.0007.desc:0 "What I have accomplished today surpasses even the great Darloc Brae. Cyrodiil is under Khajiiti control for the first time in history and our conquests are far from over.\n\nBut our home is still divided. Southern Elsweyr is still not under our control and if we wish to be even greater, order needs to be restored in Pelletine."
+ anequina.0007.a:0 "Elsweyr must be united!"
+ 
+ anequina.0008.t:0 "Conquest of Cyrodiil"
+ anequina.0008.desc:0 "What I have accomplished today surpasses even the great Darloc Brae. Cyrodiil is under Khajiiti control for the first time in history and with our homelands fully united, we are in a position to expand even futher."
+ anequina.0008.a:0 "A new age for Khajiiti begins."
+ 

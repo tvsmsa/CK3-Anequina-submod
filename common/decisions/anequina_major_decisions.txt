@@ -23,12 +23,13 @@ restore_anequina_decision = {
     is_valid = {
         is_independent_ruler =  yes
         is_at_war = no
-        prestige_level >= 4
+        prestige_level >= 3
 		OR = {
 			has_primary_title = title:k_anequina
 			has_primary_title = title:k_rimmen
             has_primary_title = title:k_orcrest
             has_primary_title = title:k_riverhold
+            has_primary_title = title:k_dune
 		}
 		completely_controls_region = mundus_tamriel_elsweyr_anequina
 	}
@@ -292,7 +293,7 @@ conquer_skingrad_decision = {
 	}
 }
 
-#Shatter Mane's Realm (base game dismantle HRE decision) NEED TO FIX CB
+#Shatter Mane's Realm (base game dismantle HRE decision) NEED TO FIX CB - didn't work, Just give claim now
 dismantle_mane_decision = {
 	picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
 
@@ -321,7 +322,7 @@ dismantle_mane_decision = {
 
 	is_valid = {
         prestige_level >= 3
-		piety_level >= 5
+		piety_level >= 4
 		#Control Anequina and then either Alabaster or Cyrodiil
 		completely_controls_region = mundus_tamriel_elsweyr_anequina
         OR = {
@@ -398,6 +399,12 @@ unite_elsweyr_anequina_decision = {
         title:k_corinthe = { set_de_jure_liege_title = title:e_anequina }
         title:k_senchal = { set_de_jure_liege_title = title:e_anequina }
         title:k_torval = { set_de_jure_liege_title = title:e_anequina }
+        hidden_effect = {
+            if = {
+                limit = {NOT = { has_global_variable = claimed_cyrodiil }}
+                add_pressed_claim = title:k_skingrad
+            }
+        }
 		set_global_variable = reunited_elsweyr
 	}
 	
@@ -474,7 +481,7 @@ claim_cyrodiil_decision = {
 	}
 
     is_valid = {
-        #Control Heartlands, Skingrad and then 3 out of other Cyrodiilian kingdoms
+        #Control Heartlands(add timer?), Skingrad and then 3 out of other Cyrodiilian kingdoms
         completely_controls = title:k_heartlands
         completely_controls = title:k_skingrad
         completely_controls = title:k_chorrol
@@ -493,7 +500,24 @@ claim_cyrodiil_decision = {
 	}
 
     effect = {
+        custom_tooltip = claim_cyrodiil_decision_effect_tooltip
         get_title = title:e_cyrodiil
+        hidden_effect = {
+            title:k_heartlands = { set_de_jure_liege_title = title:e_anequina }
+            title:k_chorrol = { set_de_jure_liege_title = title:e_anequina }
+            title:k_bravil = { set_de_jure_liege_title = title:e_anequina }
+            title:k_kvatch = { set_de_jure_liege_title = title:e_anequina }
+            title:k_cheydinhal = { set_de_jure_liege_title = title:e_anequina }
+            title:k_bruma = { set_de_jure_liege_title = title:e_anequina }
+            title:k_anvil = { set_de_jure_liege_title = title:e_anequina}
+        }
+        if = {
+            limit = {  has_global_variable = reunited_elsweyr  }
+            trigger_event = anequina.0008
+        }
+        else = {
+            trigger_event = anequina.0007
+        }
         set_global_variable = claimed_cyrodiil
     }
 
@@ -596,7 +620,7 @@ return_arenthia_bosmer_decision = {
 
     is_valid = {
         completely_controls = title:k_arenthia
-        title:c_arenthia.culture = { has_cultural_pillar = heritage_bosmeri }
+        #title:c_arenthia.culture = { has_cultural_pillar = heritage_bosmeri }
         OR = {
             title:c_arenthia.culture = root.culture
             title:c_arenthia.culture = culture:arenthi
@@ -609,6 +633,57 @@ return_arenthia_bosmer_decision = {
         custom_tooltip = return_arenthia__bosmer_decision_effect_tooltip
         title:k_arenthia = { set_de_jure_liege_title = title:e_valenwood }
         add_character_modifier = returned_arenthia_bosmer_modifier
+    }
+
+    ai_potential = {
+        always = yes
+	}
+
+	ai_will_do = { base = 100 }
+}
+
+#Return Leyawiin for Imperials
+return_leyawiin_imperial_decision = {
+    picture = "gfx/interface/illustrations/decisions/ai_decision_title_drift.dds"
+
+	desc = return_leyawiin_imperial_decision_desc
+	selection_tooltip = return_leyawiin_imperial_decision_tooltip
+	major = yes
+
+	ai_check_interval = 120
+    is_shown = {
+        is_ruler = yes
+		is_landed = yes
+        culture = { has_cultural_pillar = heritage_cyrodiilic }
+        NOR = { 
+            title:e_nibenay = { is_de_jure_liege_or_above_target = title:k_leyawiin }
+            title:e_cyrodiil = { is_de_jure_liege_or_above_target = title:k_leyawiin} 
+        }
+    }
+
+    is_valid = {
+        completely_controls = title:k_leyawiin
+        OR = {
+            has_title = title:e_nibenay
+            has_title = title:e_cyrodiil
+        }
+        NOT = { title:c_leyawiin.culture = culture:anequinan }
+    }
+
+    effect = {
+        custom_tooltip = return_leyawiin_imperial_decision_effect_tooltip
+        if = {
+            limit = {
+                exists = title:e_nibenay.holder #Must exist in the first place
+            }
+            title:k_leyawiin = { set_de_jure_liege_title = title:e_nibenay}
+        }
+        if = {
+            limit = {
+                exists = title:e_cyrodiil.holder
+            }
+            title:k_leyawiin = { set_de_jure_liege_title = title:e_cyrodiil }
+        }
     }
 
     ai_potential = {

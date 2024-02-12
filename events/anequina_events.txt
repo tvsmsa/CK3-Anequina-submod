@@ -272,3 +272,32 @@ anequina.0006 = {
 		name = anequina.0006.a
 	}
 }
+
+#Event for Cyrodiil before retuniting Elsweyr
+anequina.0007 = {
+	type = character_event
+	title = anequina.0007.t
+	desc = anequina.0007.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	option = {
+		name = anequina.0007.a
+	}
+}
+
+anequina.0008 = {
+	type = character_event
+	title = anequina.0008.t
+	desc = anequina.0008.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	option = {
+		name = anequina.0008.a
+	}
+}
