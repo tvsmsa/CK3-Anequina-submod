@@ -369,7 +369,10 @@ unite_elsweyr_anequina_decision = {
 		is_landed = yes
 		has_title = title:e_anequina
         NOT = {has_global_variable = reunited_elsweyr}
-        has_global_variable = anequina_south_expansion
+        OR = {
+            has_global_variable = anequina_south_expansion
+            has_global_variable = claimed_cyrodiil
+        }
 	}
 
 	is_valid = {
@@ -481,9 +484,76 @@ claim_cyrodiil_decision = {
         }
     }
 
+    cost = {
+		prestige = 1000
+        gold = 600
+	}
+
     effect = {
         get_title = title:e_cyrodiil
         set_global_variable = claimed_cyrodiil
+    }
+
+    ai_potential = {
+        always = yes
+	}
+
+	ai_will_do = { base = 100 }
+}
+
+reform_two_moons_decision = {
+    picture = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+
+	desc = reform_two_moons_decision_desc
+	selection_tooltip = reform_two_moons_decision_tooltip
+	major = yes
+
+	ai_check_interval = 120
+
+	is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		has_title = title:e_anequina
+        NOT = {has_global_variable = reformed_two_moons}
+        #Need to fully control Cyrodiil and Elsweyr
+        has_global_variable = claimed_cyrodiil
+        has_global_variable = reunited_elsweyr
+	}
+
+    is_valid = {
+        #Control Cyrodiil and Elsweyr, very high piety
+        completely_controls_region = mundus_tamriel_cyrodiil
+        completely_controls_region = mundus_tamriel_elsweyr
+        piety_level >= 5
+        prestige_level >=5
+        has_realm_law = crown_authority_3
+        NOT = { has_trait = zealous }
+        OR = {
+            has_trait = ambitious
+            has_trait = cynical
+        } 
+    }
+
+    cost = {
+		prestige = 3000
+        piety = 4000
+	}
+
+    effect = {
+        faith = {
+                remove_doctrine = doctrine_theocracy_temporal
+                add_doctrine = doctrine_theocracy_lay_clergy
+                remove_doctrine = doctrine_mystical_birthright_head
+                add_doctrine = doctrine_temporal_head
+        }
+        #get_title = title:d_mane
+        #title:d_mane = {
+        #    remove_title_law = mbhof_succession_law
+        #    add_title_law = partition_succession_law
+        #}
+        get_title = title:d_mane
+        #destroy_title = title:d_mane
+        set_global_variable = reformed_two_moons
     }
 
     ai_potential = {
