@@ -3,11 +3,11 @@
  restore_anequina_decision:0 "Restore Anequina"
  restore_anequina_decision_desc:0 "Before the formation of Confederacy of Elsweyr and rule of Mane, Anequina was powerful and independent kingdom for thousands of years. Although what realms exist today are far cry from our glorious past, if Northern Elsweyr was once more unified under a strong ruler perhaps we could make steps toward reclaiming our power."
  restore_anequina_decision_tooltip:0 "Kingdom of Anequina will be restored"
- restore_anequina_decision_effect_tooltip:0 "You restore ancient kingdom of Anequina and become de jure liege of all kingdoms in the region. You will gain access to new decisions focused on expanding your realm."
+ restore_anequina_decision_effect_tooltip:0 "You restore independent kingdom of Anequina and become de jure liege of all kingdoms in the region. You will gain access to new decisions focused on expanding your realm."
  restore_anequina_decision_confirm:0 "It's time to restore our ancient glory"
 
  anequina.0001.t:0 "Restoration of Kingdom of Anequina"
- anequina.0001.desc:0 "For the first time since formation of the Confederacy of Elsweyr, Kingdom of Anequina can once again claim itself independent. We have restored control over our ancestral lands, but with rest of Tamriel in chaos, a new opportunity arises. We can expand our domain even further and perhaps even restore ancient kingdom of Darloc Brae. Who knows, maybe we'll even surpass achievements of Golden Beast himself?"
+ anequina.0001.desc:0 "For the first time since formation of the Confederacy of Elsweyr, Kingdom of Anequina can once again claim itself independent. This one has restored control over our ancestral lands, but with rest of Tamriel in chaos, a new opportunity arises. We can expand our domain even further and perhaps even restore ancient kingdom of Darloc Brae. Who knows, maybe we'll even surpass achievements of Golden Beast himself?"
  anequina.0001.a:0 "Anequina is restored."
 
  integrate_leyawiin_decision:0 "Integrate Leyawiin"
@@ -32,7 +32,7 @@
  return_arenthia_decision_confirm:0 "Arenthia is ours!"
 
  anequina.0003.t:0 "Arenthia or Rawl'kha?"
- anequina.0003.desc:0 "We have managed to hold onto Arenthia long enough and settle enough of our people there to be able formalise our rule over the region.\n\nBut to do that, we need to choose capital of our new kingdom.\nWe can keep Arenthia as capital - it is major and important trade city, nestled on the fork of both the Crescent River and the Strid River.\nBut there is also an option to move capital to Rawl'kha - a holy city for every khajiit. This is where the Mane revealed the Riddle'Thar Epiphany and where one of the most important temples of our faith is located - the House of Dance."
+ anequina.0003.desc:0 "We have managed to hold onto Arenthia long enough and settle enough of our people there to be able formalise our rule over the region.\n\nBut to do that, this one needs to choose capital of returned region.\nWe can keep Arenthia as capital - it is major and important trade city, nestled on the fork of both the Crescent River and the Strid River.\nBut there is also an option to move capital to Rawl'kha - a holy city for every khajiit. This is where the Mane revealed the Riddle'Thar Epiphany and where one of the most important temples of our faith is located - the House of Dance."
  anequina.0003.a:0 "We will choose Rawl'kha."
  anequina.0003.a.tt:0 "Rawl'kha will be new de jure capital of Kingdom of Arenthia, which will prove positive for its development. However such shift will have negative consequences for city of Arenthia"
  anequina.0003.b:0 "Arenthia is enough."
@@ -42,10 +42,10 @@
  restore_darloc_kingdom_decision_desc:0 "By controlling Leyawiin and Arenthia you can proclaim ancient kingdom of Darloc Brae restored and decide what to do next."
  restore_darloc_kingdom_decision_tooltip:0 "Restore Darloc Brae's Kingdom"
  restore_darloc_kingdom_decision_effect_tooltip:0 "By claiming to have restored Darloc Brae's kingdom you can attempt to expand into Cyrodiil"
- restore_darloc_kingdom_decision_confirm:0 "I am Darloc Brae Reborn!"
+ restore_darloc_kingdom_decision_confirm:0 "This one is Darloc Brae Reborn!"
 
  anequina.0004.t:0 "Kingdom of Darloc Brae"
- anequina.0004.desc:0 "Through great trial and suffering I have restored Kingdom of Darloc Brae and none can doubt my ability to lead.\n\nBut still, we stand at the crossroads. We can accomplish what even the Golden Beast himself couldn't - expand into heartlands of Cyrodiil and perhaps even create a Khajiiti empire.\nWe can also continue our expansion in opposite direction - into the lands of Pelletine and try to reunite Elsweyr once more.\nOr we can stop our expansion and focus on developing what we already have."
+ anequina.0004.desc:0 "Through great trial and suffering this one has restored Kingdom of Darloc Brae and none can doubt my ability to lead.\n\nBut still, we stand at the crossroads. We can accomplish what even the Golden Beast himself couldn't - expand into heartlands of Cyrodiil and perhaps even create a Khajiiti empire.\nWe can also continue our expansion in opposite direction - into the lands of Pelletine and try to reunite Elsweyr once more.\nOr we can stop our expansion and focus on developing what we already have."
  anequina.0004.a:0 "Cyrodiil will be ours!"
  anequina.0004.a.tt:0 "You will gain claim on Skingrad and unlock decisions focused on expanding your realm into Cyrodiil. You will still be able to unlock Pellitine decisions, but later."
  anequina.0004.b:0 "We shall reunite Elsweyr under our rule."
@@ -103,10 +103,10 @@
  reform_two_moons_decision_confirm:0 "We will lead the faithful"
 
  anequina.0007.t:0 "Conquest of Cyrodiil"
- anequina.0007.desc:0 "What I have accomplished today surpasses even the great Darloc Brae. Cyrodiil is under Khajiiti control for the first time in history and our conquests are far from over.\n\nBut our home is still divided. Southern Elsweyr is still not under our control and if we wish to be even greater, order needs to be restored in Pelletine."
+ anequina.0007.desc:0 "What this one has accomplished today surpasses even the great Darloc Brae. Cyrodiil is under Khajiiti control for the first time in history and our conquests are far from over.\n\nBut our home is still divided. Southern Elsweyr is still not under our control and if we wish to be even greater, order needs to be restored in Pelletine."
  anequina.0007.a:0 "Elsweyr must be united!"
  
  anequina.0008.t:0 "Conquest of Cyrodiil"
- anequina.0008.desc:0 "What I have accomplished today surpasses even the great Darloc Brae. Cyrodiil is under Khajiiti control for the first time in history and with our homelands fully united, we are in a position to expand even futher."
+ anequina.0008.desc:0 "What this one has accomplished today surpasses even the great Darloc Brae. Cyrodiil is under Khajiiti control for the first time in history and with our homelands fully united, we are in a position to expand even futher."
  anequina.0008.a:0 "A new age for Khajiiti begins."
  

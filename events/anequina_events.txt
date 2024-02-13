@@ -208,14 +208,16 @@ anequina.0004 = {
 	option = {
 		name = anequina.0004.c
 		custom_tooltip = anequina.0004.c.tt
-		every_sub_realm_county = {
-			limit = {
-				culture = { has_cultural_pillar = heritage_khajiiti }
-				title_province = { geographical_region = mundus_tamriel_elsweyr_anequina }
-			}
-			add_county_modifier = {
-				modifier = flourishing_culture_modifier
-				years = 50
+		hidden_effect = {
+			every_sub_realm_county = {
+				limit = {
+					culture = { has_cultural_pillar = heritage_khajiiti }
+					title_province = { geographical_region = mundus_tamriel_elsweyr_anequina }
+				}
+				add_county_modifier = {
+					modifier = flourishing_culture_modifier
+					years = 50
+				}
 			}
 		}
 	}

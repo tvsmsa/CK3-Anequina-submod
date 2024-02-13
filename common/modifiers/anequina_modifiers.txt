@@ -76,7 +76,7 @@ passed_over_as_capital_modifier = {
 #For restoring Darloc Brae's kingdom
 restored_darloc_kingdom_modifier = {
     icon = martial_positive
-    martial = 3
+    martial = 4
     stewardship = 2
     prowess = 5
     same_culture_opinion = 15

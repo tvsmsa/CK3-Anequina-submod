@@ -7,7 +7,7 @@ Anequina submod for Elder Kings 2
 
 	1.1) Restore High Kingdom of Anequina
 
-	1.2) Integrate Leyawiin	
+	1.2) Integrate Leyawiin	(Also decision for Imperial to return it).
 
 	1.3) Return Arenthia (Also decision for Bosmers to return it).
 	
@@ -51,10 +51,12 @@ Anequina submod for Elder Kings 2
 	
 	3.6) Event for claiming Cyrodiil
 	
+4) Harry Dubois - Khajiit edition (employed by queen of Anequina)
+	
 
 ## TO-DO:
 
-1) Do'krin special building in game (building itself is coded)
+1) Do'krin special building in game
 
 2) Stuff for interacting with Morrowind
 
@@ -66,6 +68,6 @@ Anequina submod for Elder Kings 2
 
 6) Empire of Tamriel: Anequina Edition
 
-7) Change Darloc Brae modifier to Dynasty modifier
+7) Allow recruitment of Imperial MAA after conquest of Cyrodiil (or make new one - Khajiit version of it)
 
-8) Allow recruitment of Imperial MAA after conquest of Cyrodiil
+8) Add Harry Dubois of every race

@@ -16,7 +16,10 @@ restore_anequina_decision = {
 		is_landed = yes
 		NOT = { has_title = title:e_elsweyr }
 		has_feudal_like_government = yes
-        culture = culture:anequinan
+        OR = {
+            culture = culture:anequinan
+            culture = { any_parent_culture_or_above = { this = culture:anequinan }}
+        }
         NOT = { has_global_variable = anequina_restored }
 	}
 
@@ -84,7 +87,10 @@ integrate_leyawiin_decision = {
 		is_ruler = yes
 		is_landed = yes
 		has_title = title:e_anequina
-        culture = culture:anequinan
+        OR = {
+            culture = culture:anequinan
+            culture = { any_parent_culture_or_above = { this = culture:anequinan }}
+        }
         has_global_variable = anequina_restored
         NOT = { has_global_variable = leyawiin_integrated }
 	}
@@ -130,18 +136,21 @@ return_arenthia_decision = {
 		is_ruler = yes
 		is_landed = yes
 		has_title = title:e_anequina
-        culture = culture:anequinan
+        OR = {
+            culture = culture:anequinan
+            culture = { any_parent_culture_or_above = { this = culture:anequinan }}
+        }
         has_global_variable = anequina_restored
         NOT = { has_global_variable = arenthia_returned }
 	}
 
     is_valid = {
         is_at_war = no
-        prestige_level >= 4
+        prestige_level >= 3
         #Need to fully control and have held title of Arenthia for 15 years
         completely_controls = title:k_arenthia
         has_title = title:k_arenthia
-        title:k_arenthia = { title_held_years >= 15 }
+        #title:k_arenthia = { title_held_years >= 15 }
         #Need capital of Arenthia to be of your culture
         title:c_arenthia.culture = root.culture
 	}
@@ -182,7 +191,10 @@ restore_darloc_kingdom_decision = {
 		is_ruler = yes
 		is_landed = yes
 		has_title = title:e_anequina
-        culture = culture:anequinan
+        OR = {
+            culture = culture:anequinan
+            culture = { any_parent_culture_or_above = { this = culture:anequinan }}
+        }
         has_global_variable = anequina_restored
         NOT = { has_global_variable = restored_darloc_kingdom }
 	}
@@ -206,10 +218,10 @@ restore_darloc_kingdom_decision = {
         }
         OR = {
             title:c_sleekcreek = {
-                development_level >= 20
+                development_level >= 15
             }
             title:c_arenthia = {
-                development_level >= 20
+                development_level >= 15
             }
         }
         #You can't do this after just inheriting the throne. Shouldn't be a problem for character who was ruling for a while. Comment for testing
@@ -219,7 +231,9 @@ restore_darloc_kingdom_decision = {
     effect = {
         #custom_tooltip = restore_darloc_kingdom_decision_effect_tooltip
         give_nickname = nick_darloc_brae_reborn
-        add_character_modifier = restored_darloc_kingdom_modifier
+        dynasty = {
+            add_dynasty_modifier = { modifier = restored_darloc_kingdom_modifier }
+        }
         trigger_event = anequina.0004
         set_global_variable = restored_darloc_kingdom
     }
