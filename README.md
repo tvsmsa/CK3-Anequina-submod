@@ -68,6 +68,6 @@ Anequina submod for Elder Kings 2
 
 6) Empire of Tamriel: Anequina Edition
 
-7) Allow recruitment of Imperial MAA after conquest of Cyrodiil (or make new one - Khajiit version of it)
+7) Allow recruitment of Imperial MAA after conquest of Cyrodiil (or make new one - Khajiit version of it, or improved beasts of war)
 
 8) Add Harry Dubois of every race

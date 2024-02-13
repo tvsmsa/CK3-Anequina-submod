@@ -19,7 +19,7 @@
  anequina.0002.t:0 "Integration of Leyawiin"
  anequina.0002.desc:0 "We have conquered Leyawiin and the lands surrounding it left of the Niben River. Only one question remains - who will get control of the city?\n\nWe can grant it to our distant relatives - Malapiit, they will surely be grateful and this will lead to the development their culture has not seen in a long time.\nOr we can settle it ourselves, ignoring Malapiit native to the area.\nNo matter what we do, it's obvious that Nibenese people won't be satisfied with what is happenning, unless we temper our ambitions and let them keep control of Leyawiin."
  anequina.0002.a:0 "We shall grant Leyawiin to Malapiit."
- anequina.0002.a.tt:0 "You will grant Leyawiin to Malapiit. This will lead to their culture spreading and floursihing in Leyawiing and lands around it."
+ anequina.0002.a.tt:0 "You will grant Leyawiin to Malapiit. This will lead to their culture spreading and floursihing in Leyawiin and lands around it."
  anequina.0002.b:0 "We will claim Leyawiin for ourselves!"
  anequina.0002.b.tt:0 "You will claim Leyawiin for your people"
  anequina.0002.c:0 "Let Nibenese keep their city."
@@ -41,7 +41,7 @@
  restore_darloc_kingdom_decision:0 "Restore Darloc Brae's Kingdom"
  restore_darloc_kingdom_decision_desc:0 "By controlling Leyawiin and Arenthia you can proclaim ancient kingdom of Darloc Brae restored and decide what to do next."
  restore_darloc_kingdom_decision_tooltip:0 "Restore Darloc Brae's Kingdom"
- restore_darloc_kingdom_decision_effect_tooltip:0 "By claiming to have restored Darloc Brae's kingdom you can attempt to expand into Cyrodiil"
+ restore_darloc_kingdom_decision_effect_tooltip:0 "By claiming to have restored Darloc Brae's kingdom you can attempt to expand into Cyrodiil or Pelletine"
  restore_darloc_kingdom_decision_confirm:0 "This one is Darloc Brae Reborn!"
 
  anequina.0004.t:0 "Kingdom of Darloc Brae"
@@ -56,7 +56,7 @@
  conquer_skingrad_decision:0 "Conquer Skingrad"
  conquer_skingrad_decision_desc:0 "By conquering the entirety of Skingrad and installing a sympathetic ruler we can add this kingdom to our growing realm."
  conquer_skingrad_decision_tooltip:0 "Conquer Skingrad"
- conquer_skingrad_decision_confirm:0 "Conquer Skingrad"
+ conquer_skingrad_decision_confirm:0 "We will surpass Darloc Brae!"
 
  dismantle_mane_decision:0 "Claim Pelletine"
  dismantle_mane_decision_desc:0 "With our constant expansion it was inevitable that we will come to clashes with Mane. If we have sufficient hold on Southern Elsweyr or Cyrodiil, we can claim Pelletine and then launch war to bring the region under our control."
@@ -69,7 +69,7 @@
  anequina.0005.a:0 "For Anequina!"
 
  anequina.0006.t:0 "Ambitions of Anequina"
- anequina.0006.desc:0 "For a long time the power of Kingodm of Anequina was growing and it was inevitable that it will end in confrontation with us. The time has come to settle our differnces on battlefield!"
+ anequina.0006.desc:0 "For a long time the power of Kingdom of Anequina was growing and it was inevitable that it will end in confrontation with us. The time has come to settle our differnces on battlefield!"
  anequina.0006.a:0 "For The Mane!"
 
  unite_elsweyr_anequina_decision:0 "Reunite Elsweyr"
@@ -86,8 +86,8 @@
 
  claim_cyrodiil_decision:0 "Claim Cyrodiil"
  claim_cyrodiil_decision_desc:0 "After conquering center of Imperial Province we have a chance to claim entirety of Cyrodiil for ourselves - provided we control enough of it."
- claim_cyrodiil_decision_tooltip:0 "After conquering center of Imperial Province we have a chance to claim entirety of Cyrodiil for ourselves - provided we control enough of it."
- claim_cyrodiil_decision_effect_tooltip:0 "Kingdom of Anequina will become de jure liege of kingdoms of Cyrodiil."
+ claim_cyrodiil_decision_tooltip:0 "Claim Empire of Cyrodiil."
+ claim_cyrodiil_decision_effect_tooltip:0 "Kingdom of Anequina will become de jure liege of kingdoms of Cyrodiil. You will gain access to Pelletine decisions, if you did not complete them already."
  claim_cyrodiil_decision_confirm:0 "Cyrodiil belongs to Anequina"
  
  return_arenthia_bosmer_decision:0 "Return Arenthia"
@@ -107,6 +107,6 @@
  anequina.0007.a:0 "Elsweyr must be united!"
  
  anequina.0008.t:0 "Conquest of Cyrodiil"
- anequina.0008.desc:0 "What this one has accomplished today surpasses even the great Darloc Brae. Cyrodiil is under Khajiiti control for the first time in history and with our homelands fully united, we are in a position to expand even futher."
+ anequina.0008.desc:0 "What this one has accomplished today surpasses even the great Darloc Brae. Cyrodiil is under Khajiiti control for the first time in history and with our homelands fully united, we are in a position to conquer even futher."
  anequina.0008.a:0 "A new age for Khajiiti begins."
  

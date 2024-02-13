@@ -1,0 +1,6 @@
+﻿l_russian: 
+ nick_sharp_tongue:0 "[Select_CString( CHARACTER.IsFemale, 'Остроязыкий', 'Остроязыкая' )]"
+ nick_sharp_tongue_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] восстановили древнее королевство Анеквины и заслужили прозвище, которое носила его основательница"
+
+ nick_darloc_brae_reborn:0 "Перерожденный Дарлок Брей"
+ nick_darloc_brae_reborn_desc:0 "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] восстановили королевство Анеквины до границ, которые оно имело во время правления Дарлока Брея restored"

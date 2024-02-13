@@ -555,6 +555,7 @@ reform_two_moons_decision = {
 		is_ruler = yes
 		is_landed = yes
 		has_title = title:e_anequina
+        faith=faith:twomoonsdance
         NOT = {has_global_variable = reformed_two_moons}
         #Need to fully control Cyrodiil and Elsweyr
         has_global_variable = claimed_cyrodiil

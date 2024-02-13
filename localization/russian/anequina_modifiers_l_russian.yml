@@ -1,0 +1,36 @@
+﻿l_russian: 
+ restored_anequina_modifier:0 "Восстановил Анеквину"
+ restored_anequina_modifier_desc:0 "Этот персонаж восстановил Анеквину и заслужил уважение от своего народа, но подорвал власть Гривы в процессе."
+
+ malapiit_flourishing_modifier:0 "Малапиит процветают"
+ malapiit_flourishing_modifier_desc:0 "Впервые за тысячи лет Малапииты полностью контролируют левое устье Нибена, это привело к расцвету их культуры."
+ 
+ settled_malapiit_modifier:0 "Заселил Малапиитов"
+ settled_malapiit_modifier_desc:0 "Этот персонаж даровал Лейавин и территорию вокруг него Малапиита, этим он заслужил их благодарность и разозлил Нибенейцев"
+
+ settled_anequinans_modifier:0 "Заселил Анеквинцев"
+ settled_anequinans_modifier_desc:0 "Этот персонаж поселил в Лейавин собственный народ, это разозлило Нибенейцев."
+
+ kept_leyawiin_modifier:0 "Оставил Лейавин Нибенейцам"
+ kept_leyawiin_modifier_desc:0 "Этот персонаж не заселил Лейавин своим народом или кем-то другим после завоевания его, Нибенейцы благодарны за это."
+
+ returned_arenthia_modifier:0 "Вернул Арентию"
+ returned_arenthia_modifier_desc:0 "Этот персонаж вернул Арентию под власть Каджитов, это решение разозлило их соседей Босмеров."
+ 
+ rawlkha_capital_modifier:0 "Столица нового Королевства Каджитов"
+ rawlkha_capital_modifier_desc:0 "Этот город был выбран в качестве столицы нового Каджитского королевства."
+
+ arenthia_capital_modifier:0 "Столица нового Королевства Каджитов"
+ arenthia_capital_modifier_desc:0 "Этот город был выбран в качестве столицы нового Каджитского королевства."
+
+ passed_over_as_capital_modifier:0 "Игнорирован в качестве столицы"
+ passed_over_as_capital_modifier_desc:0 "Этот город был проигнорирован как столица в пользу Рол'ка, это привело к негативным экономическим последствиям."
+
+ restored_darloc_kingdom_modifier:0 "Восстановили королевство Дарлок Брея"
+ restored_darloc_kingdom_modifier_desc:0 "Эта династия восстановила Анеквина к былому величию."
+
+ reformed_two_moons_modifier:0 "Глава Каджитской веры"
+ reformed_two_moons_modifier_desc:0 "Этот персонаж заявился себя главой Каджитской веры, забрав титул у Гривы."
+
+ returned_arenthia_bosmer_modifier:0 "Вернул Арентию"
+ returned_arenthia_bosmer_modifier_desc:0 "Этот персонаж вернул Арентию Босмерам."
