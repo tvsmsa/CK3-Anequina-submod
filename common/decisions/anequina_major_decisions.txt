@@ -43,6 +43,7 @@ restore_anequina_decision = {
 	}
 
     effect = {
+        save_scope_as = founder
 		#Get Empire of Anequina
 		get_title = title:e_anequina
 		#Event for Restoration
@@ -229,6 +230,7 @@ restore_darloc_kingdom_decision = {
     }
 
     effect = {
+        save_scope_as = founder
         #custom_tooltip = restore_darloc_kingdom_decision_effect_tooltip
         give_nickname = nick_darloc_brae_reborn
         dynasty = {
@@ -514,6 +516,7 @@ claim_cyrodiil_decision = {
 	}
 
     effect = {
+        save_scope_as = founder
         custom_tooltip = claim_cyrodiil_decision_effect_tooltip
         get_title = title:e_cyrodiil
         hidden_effect = {
