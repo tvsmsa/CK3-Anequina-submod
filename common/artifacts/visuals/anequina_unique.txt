@@ -1,0 +1,4 @@
+darloc_brae_spittoon = {
+    icon = "artifact_urn.dds"
+	asset = ep1_indian_urn_fancy_01_a_entity
+}

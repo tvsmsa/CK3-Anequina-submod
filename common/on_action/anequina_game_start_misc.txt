@@ -1,0 +1,10 @@
+anequina_on_game_start_events = {
+	events = {
+		anequina_historical_artifacts.0001
+	}
+}
+on_game_start = {
+	on_actions = {
+        anequina_on_game_start_events
+	}
+}

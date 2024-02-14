@@ -1,0 +1,21 @@
+namespace = anequina_historical_artifacts
+# Generation of Anequina historical artifacts #
+
+# Anequina historical artifacts generator at game start
+anequina_historical_artifacts.0001 = {
+	scope = none
+	hidden = yes
+
+	immediate = {
+		#### FOR COURT ARTIFACTS ####
+		if = {
+			limit = {
+				has_dlc_feature = royal_court #checks if player has Royal Court first
+			}
+			random_ruler = {
+				limit = { has_title = title:k_anequina }
+				create_darloc_brae_spittoon_effect = { OWNER = this }
+			}
+        }
+    }
+}
