@@ -1,8 +1,8 @@
-incite_revolts_interaction = {
+incite_revolts_anequina_interaction = {
 	interface_priority = 30
 	category = interaction_category_hostile
 	common_interaction = yes
-	desc = incite_revolts_interaction_desc
+	desc = incite_revolts_anequina_interaction_desc
 	icon = faction
 
 	greeting = positive
@@ -39,7 +39,7 @@ incite_revolts_interaction = {
 		scope:actor = {
 			has_title = title:e_anequina
 		}
-		# Can only target involved
+		# Can only target Dunmers
 		scope:recipient = {
 			culture = { has_cultural_pillar = heritage_dunmeri }
 		}
@@ -165,7 +165,7 @@ incite_revolts_interaction = {
 				value = scope:recipient.intrigue
 			
 				10 = { # Failure
-					desc = incite_revolts_interaction_notif_failure
+					desc = incite_revolts_anequina_interaction_notif_failure
 					compare_modifier = {
 						value = scope:duel_value
 						multiplier = -1.5
@@ -192,7 +192,7 @@ incite_revolts_interaction = {
 
 					hidden_effect = {
 						send_interface_toast = {
-							title = incite_revolts_interaction_result.tt
+							title = incite_revolts_anequina_interaction_result.tt
 							left_icon = scope:chosen_county
 							right_icon = scope:recipient
 							if = {
@@ -260,7 +260,7 @@ incite_revolts_interaction = {
 					}
 				}
 				10 = { # Success
-					desc = incite_revolts_interaction_notif_success
+					desc = incite_revolts_anequina_interaction_notif_success
 					compare_modifier = {
 						value = scope:duel_value
 						multiplier = 1.5
@@ -283,7 +283,7 @@ incite_revolts_interaction = {
 
 					hidden_effect = {
 						send_interface_toast = {
-							title = incite_revolts_interaction_result.tt
+							title = incite_revolts_anequina_interaction_result.tt
 							left_icon = scope:chosen_county
 							if = {
 								limit = {
