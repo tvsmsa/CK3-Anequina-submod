@@ -1,0 +1,5 @@
+﻿l_english:
+ tradition_anequina_legions_name:0 "Coin and Claw"
+ tradition_anequina_legions_desc:0 "After conquering Cyrodiil this culture took up some of the traditions of their vassals. They saw the Imperial Legions in action and decided to make their own, improved version of them."
+ tradition_anequina_legions_trigger_desc:0 "Is #V $Khajiiti$#! [heritage|E] and claimed Cyrodiil as Anequina."
+ culture_parameter_unlock_maa_khajiit_legionaires:0 "Can recruit [GetMaA('khajiit_legionaires').GetName] as [men_at_arms|E]"

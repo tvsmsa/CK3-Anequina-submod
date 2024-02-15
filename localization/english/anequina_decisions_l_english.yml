@@ -87,7 +87,7 @@
  claim_cyrodiil_decision:0 "Claim Cyrodiil"
  claim_cyrodiil_decision_desc:0 "After conquering center of Imperial Province we have a chance to claim entirety of Cyrodiil for ourselves - provided we control enough of it."
  claim_cyrodiil_decision_tooltip:0 "Claim Empire of Cyrodiil."
- claim_cyrodiil_decision_effect_tooltip:0 "Kingdom of Anequina will become de jure liege of kingdoms of Cyrodiil. You will gain access to Pelletine decisions, if you did not complete them already."
+ claim_cyrodiil_decision_effect_tooltip:0 "Kingdom of Anequina will become de jure liege of kingdoms of Cyrodiil. You will gain access to Pelletine decisions, if you did not complete them already. New cultural tradition will be available for your culture - $tradition_anequina_legions_name$."
  claim_cyrodiil_decision_confirm:0 "Cyrodiil belongs to Anequina"
  
  return_arenthia_bosmer_decision:0 "Return Arenthia"
