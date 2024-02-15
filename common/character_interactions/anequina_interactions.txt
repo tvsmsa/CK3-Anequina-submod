@@ -201,21 +201,7 @@ incite_revolts_interaction = {
 								}
 								create_character = {
 									location = scope:chosen_county.title_province
-									template = populist_faction_leader_template
-									faith = scope:chosen_county.faith
-									#faith = root.faith
-									#culture = scope:chosen_county.culture
-									#culture = culture:anequinan
-									random_culture = {
-										culture:hleel = { weight = { base = 4 } }
-										culture:agaceph = { weight = { base = 2 } }
-										culture:sarpa = { weight = { base = 2 } }
-										culture:lukiul = { weight = { base = 5 } }
-										culture:hapsleet = { weight = { base = 3 } }
-										culture:pellitinian = { weight = { base = 5 } }
-										culture:anequinan = { weight = { base = 5 } }
-										culture:baandari = { weight = { base = 2 } }
-									}
+									template = anequina_revolt_character_template
 									gender_female_chance = {
 										if = {
 											limit = { scope:chosen_county.faith = { has_doctrine = doctrine_gender_male_dominated } }
@@ -305,21 +291,7 @@ incite_revolts_interaction = {
 								}
 								create_character = {
 									location = scope:chosen_county.title_province
-									template = populist_faction_leader_template
-									faith = scope:chosen_county.faith
-									#faith = root.faith
-									#culture = scope:chosen_county.culture
-									culture = culture:anequinan
-									#random_culture = {
-									#	culture:hleel = { weight = { base = 4 } }
-									#	culture:agaceph = { weight = { base = 2 } }
-									#	culture:sarpa = { weight = { base = 2 } }
-									#	culture:lukiul = { weight = { base = 5 } }
-									#	culture:hapsleet = { weight = { base = 3 } }
-									#	culture:pellitinian = { weight = { base = 5 } }
-									#	culture:anequinan = { weight = { base = 5 } }
-									#	culture:baandari = { weight = { base = 2 } }
-									#}
+									template = anequina_revolt_character_template
 									gender_female_chance = {
 										if = {
 											limit = { scope:chosen_county.faith = { has_doctrine = doctrine_gender_male_dominated } }
