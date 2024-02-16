@@ -2,3 +2,7 @@
  court_divine_prosecutor_position:0 "Justiciar of Divine Prosecution"
  court_divine_prosecutor_position_desc:1 "Office of Divine Prosecution is responsible for upholding relgious and secular laws of Alinor, as well enforcing other rules of Altmer society. As main leader of all Aldmer you can recruit your own, personal Justiciar."
  court_divine_prosecutor_employer_custom_effect_description:1 "@warning_icon!#X Powerful [agent|E] in [hostile_schemes|E] against you#!"
+
+ court_sapiarch_position:0 "Court Sapiarch"
+ court_sapiarch_position_desc:1 "One of the main functions of College of Sapiarchs is to advise current ruler of Summerset, the $court_sapiarch_position$ ensures connection between the two."
+ 

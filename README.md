@@ -52,13 +52,19 @@ Anequina submod for Elder Kings 2
 	3.6) Event for claiming Cyrodiil
 	
 4) Harry Dubois - Khajiit edition (employed by queen of Anequina)
+
+5) Interaction to cause slave revolts in Morrowind
+
+6) Altmer flavor: 2 new court positions - Court Justiciar and Court Sapiarch
+
+7) New tradition for Anequina - available after conquering Cyrodiil and unlock unique MAA
 	
 
 ## TO-DO:
 
 1) Do'krin special building in game
 
-2) Stuff for interacting with Morrowind
+2) Decisions for Morrowind
 
 3) Mane version of Cyrodiil decisions
 
@@ -68,6 +74,4 @@ Anequina submod for Elder Kings 2
 
 6) Empire of Tamriel: Anequina Edition
 
-7) Allow recruitment of Imperial MAA after conquest of Cyrodiil (or make new one - Khajiit version of it, or improved beasts of war)
-
-8) Add Harry Dubois of every race
+7) Add Harry Dubois of every race

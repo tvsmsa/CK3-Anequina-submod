@@ -81,3 +81,52 @@ anequina_revolt_character_template = {
         }
 	}
 }
+
+sapiarch_template = {
+	age = { 30 50 } #Not too young, not too old
+	faith = root.faith
+	culture = culture:alinor
+
+	gender_female_chance = 50
+	trait = scholar
+	
+	#Education
+	random_traits_list = {
+		count = 1
+		education_learning_2 = {
+			weight = { base = 30 }
+		}
+		education_learning_3 = {
+			weight = { base = 20 }
+		}
+		education_learning_4 = {
+			weight = { base = 10 }
+		}
+	}
+	random_traits_list = {
+		count = 3
+		brave = {}
+		calm = {}
+		wrathful = {}
+		ambitious = {}
+		content = {}
+		fickle = {}
+		stubborn = {}
+		vengeful = {}
+		deceitful = {}
+		humble = {}
+		arrogant = {}
+		arbitrary = {}
+		patient = {}
+		impatient = {}
+		paranoid = {}
+		zealous = {}
+		cynical = {}
+		callous = {}
+		sadistic = {}
+	}
+	learning = { min_template_decent_skill max_template_decent_skilll }
+	after_creation = {
+		ek_character_setup_effect = yes
+	}
+}

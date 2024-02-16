@@ -1,0 +1,10 @@
+﻿l_english:
+ recruit_sapiarch_decision:0 "Recruit Sapiarch"
+ recruit_sapiarch_decision_desc:0 "One of the main functions of College of Sapiarchs is to advise rulers of Summerset. Currently we have no Sapiarch at our court at the moment and should contact College for one."
+ recruit_sapiarch_decision_tooltip:0 "You will recruit someone fit for $court_sapiarch_position$"
+ recruit_sapiarch_decision_effect:0 "A Sapiarch will arrive at your court shortly"
+ recruit_sapiarch_decision_confirm:0 "Recruit Sapiarch"
+
+ altmer_event.0001.t:0 "Sapiarch Arrives"
+ altmer_event.0001.desc:0 "Finnaly, one of the Sapiarchs arrived to advise me and serve as connection between the court and the College."
+ altmer_event.0001.a:0 "Welcome, Sapiarch"
