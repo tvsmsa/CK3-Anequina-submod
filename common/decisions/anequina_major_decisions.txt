@@ -710,3 +710,76 @@ return_leyawiin_imperial_decision = {
 
 	ai_will_do = { base = 100 }
 }
+
+restore_pellitine_decision = {
+    picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+    desc = restore_pellitine_decision_desc
+    selection_tooltip = restore_pellitine_decision_tooltip
+    major = yes
+
+    ai_check_interval = 120
+
+    is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		NOT = { has_title = title:e_elsweyr }
+		has_feudal_like_government = yes
+        OR = {
+            culture = culture:pellitinian
+            culture = { any_parent_culture_or_above = { this = culture:pellitinian }}
+        }
+        NOT = { has_global_variable = pellitine_restored }
+	}
+
+    is_valid = {
+        is_independent_ruler =  yes
+        is_at_war = no
+        prestige_level >= 3
+		OR = {
+			has_primary_title = title:k_senchal
+			has_primary_title = title:k_torval
+            has_primary_title = title:k_alabaster
+            has_primary_title = title:k_corinthe
+		}
+        calc_true_if = {
+			amount >= 3
+			completely_controls = title:k_senchal
+			completely_controls = title:k_torval
+			completely_controls = title:k_alabaster
+			completely_controls = title:k_corinthe
+		}
+	}
+
+    cost = {
+		prestige = { value = 1500 }
+		gold = { value = 500 }
+	}
+
+    effect = {
+        save_scope_as = founder
+		#Get Empire of Pellitine
+		get_title = title:e_pellitine
+		#Event for Restoration
+		trigger_event = pellitine.0001
+        custom_tooltip = restore_pellitine_decision_effect_tooltip
+        add_character_modifier = {
+			modifier = restored_pellitine_modifier
+			years = 50
+		}
+        hidden_effect = {
+            title:k_senchal = { set_de_jure_liege_title = title:e_pellitine }
+            title:k_torval = { set_de_jure_liege_title = title:e_pellitine }
+            title:k_alabaster = { set_de_jure_liege_title = title:e_pellitine }
+            title:k_corinthe = { set_de_jure_liege_title = title:e_pellitine }
+		}
+        set_global_variable = pellitine_restored
+	}
+
+    ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}    
+}

@@ -303,3 +303,22 @@ anequina.0008 = {
 		name = anequina.0008.a
 	}
 }
+
+namespace = pellitine
+pellitine.0001 = {
+	title = pellitine.0001.t
+	desc = pellitine.0001.desc
+    content_source = dlc_ek
+	theme = realm
+
+	left_portrait = {
+		character = root
+		#animation = personality_bold
+        animation = war_over_win
+	}
+	
+	option = {
+		name = pellitine.0001.a
+		add_prestige = medium_prestige_gain
+	}
+}

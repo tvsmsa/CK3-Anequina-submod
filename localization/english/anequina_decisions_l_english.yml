@@ -110,3 +110,13 @@
  anequina.0008.desc:0 "What this one has accomplished today surpasses even the great Darloc Brae. Cyrodiil is under Khajiiti control for the first time in history and with our homelands fully united, we are in a position to conquer even futher."
  anequina.0008.a:0 "A new age for Khajiiti begins."
  
+ restore_pellitine_decision:0 "Restore Pellitine"
+ restore_pellitine_decision_desc:0 "After Thrassian Plague lands of Southern Elsweyr were consolidated into kingdom of Pellitine. It existed for many centuries, until Anequina and Pellitine united and formed Elsweyr Confederacy. But memory of our independence still exists - if one ruler was able to unite most of homelands, we could proclaim Pellitine restored."
+ restore_pellitine_decision_tooltip:0 "You will restore kingdom of Pellitine"
+ restore_pellitine_decision_effect_tooltip:0 "Kingdom of Pellitine will be restored and will become de jure liege of all kingdoms of Southern Elsweyr "
+ restore_pellitine_decision_confirm:0 "Pellitine is restored!"
+
+ pellitine.0001.t:0 "Restoration of Pellitine"
+ pellitine.0001.desc:0 "After many years Pellitine is independent of Mane or Anequina. Some exist who would wish to have us under control, but we will not let them."
+ pellitine.0001.a:0 "Pellitine is free"
+ 
