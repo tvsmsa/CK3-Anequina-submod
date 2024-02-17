@@ -39,13 +39,13 @@
  anequina.0003.b.tt:"You will keep Arenthia as Kingdom's capital"
 
  restore_darloc_kingdom_decision:0 "Restore Darloc Brae's Kingdom"
- restore_darloc_kingdom_decision_desc:0 "By controlling Leyawiin and Arenthia you can proclaim ancient kingdom of Darloc Brae restored and decide what to do next."
+ restore_darloc_kingdom_decision_desc:0 "By controlling Leyawiin and Arenthia you can proclaim ancient kingdom of Darloc Brae restored."
  restore_darloc_kingdom_decision_tooltip:0 "Restore Darloc Brae's Kingdom"
  restore_darloc_kingdom_decision_effect_tooltip:0 "By claiming to have restored Darloc Brae's kingdom you can attempt to expand into Cyrodiil or Pelletine"
  restore_darloc_kingdom_decision_confirm:0 "This one is Darloc Brae Reborn!"
 
  anequina.0004.t:0 "Kingdom of Darloc Brae"
- anequina.0004.desc:0 "Through great trial and suffering this one has restored Kingdom of Darloc Brae and none can doubt my ability to lead.\n\nAfter many thousands of years Anequina is once more of one most powerful kingdoms in Tamriel and we can contrinue our conquests even further."
+ anequina.0004.desc:0 "Through great trial and suffering this one has restored Kingdom of Darloc Brae and none can doubt my ability to lead.\n\nAfter many thousands of years Anequina is once more of one most powerful kingdoms in Tamriel."
  anequina.0004.a:0 "For Anequina!"
  
  return_arenthia_bosmer_decision:0 "Return Arenthia"

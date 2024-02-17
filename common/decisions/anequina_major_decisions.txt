@@ -94,13 +94,13 @@ integrate_leyawiin_decision = {
 
     is_valid = {
         is_at_war = no
-        prestige_level >= 4
+        prestige_level >= 3
         completely_controls = title:d_nomore
         completely_controls = title:d_leyawiin
 	}
 
     cost = {
-        gold = { value = 500 }
+        gold = { value = 300 }
     }
 
     effect = {
@@ -153,7 +153,7 @@ return_arenthia_decision = {
 	}
 
     cost = {
-        gold = { value = 500 }
+        gold = { value = 300 }
     }
 
     effect = {
@@ -224,6 +224,11 @@ restore_darloc_kingdom_decision = {
         #You can't do this after just inheriting the throne. Shouldn't be a problem for character who was ruling for a while. Comment for testing
         #title:e_anequina = { title_held_years >= 15 }
     }
+
+    cost = {
+		prestige = { value = 1500 }
+		gold = { value = 500 }
+	}
 
     effect = {
         save_scope_as = founder
