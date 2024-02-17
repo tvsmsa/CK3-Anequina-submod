@@ -33,6 +33,6 @@ Anequina submod for Elder Kings 2
 	
 	3.3) Arenthia decision - can choose capital for Arenthia (Arenthia itself or Rawl'kha)
 	
-	3.4) Event for restoring Kingdom of Darloc Brae and then deciding what direction to take
+	3.4) Event for restoring Kingdom of Darloc Brae
 	
 4) New artifact at court of Anequina
