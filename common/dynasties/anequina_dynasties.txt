@@ -1,5 +1,0 @@
-#Harry Dubois dynasty
-harry_dubois = { 
-	name  = "Bois"
-	culture = anequinan
-}

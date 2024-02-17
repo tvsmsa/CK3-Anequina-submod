@@ -90,12 +90,6 @@ returned_arenthia_bosmer_modifier = {
     anequinan_opinion = -10
 }
 
-#Modifier for Reforming Two Moons. Zealots are really not happy about that
-reformed_two_moons_modifier = {
-    icon = piety_negative
-    zealot_opinion = -100
-}
-
 darloc_brae_spittoon_modifier = {
 	court_grandeur_baseline_add = 10
 	monthly_dynasty_prestige = 0.1

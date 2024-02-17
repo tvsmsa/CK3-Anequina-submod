@@ -1,7 +1,7 @@
 # CK3-Anequina-submod
 Anequina submod for Elder Kings 2
 
-## Current content:
+## Current content - ONLY THIS BRANCH:
 
 1) Decisions:
 
@@ -12,18 +12,6 @@ Anequina submod for Elder Kings 2
 	1.3) Return Arenthia (Also decision for Bosmers to return it).
 	
 	1.4) Restore Kingdom of Darloc Brae
-	
-	1.5) Decision for conquering Skingrad
-	
-	1.6) Decision for getting claim of Elsweyr
-	
-	1.7) Decision for reuniting Elsweyr
-
-	1.8) Decision for invading Heartlands
-
-	1.9) Decision for getting Empire of Cyrodiil
-	
-	1.10) Decision to become Head of Faith of Two-Moons Dance
 
 2) Modifiers:
 
@@ -33,45 +21,18 @@ Anequina submod for Elder Kings 2
 	
 	2.3) Arenthia - county modifier for Arenthia or Rawl'kha (Arenthia gets negative modifier if Rawl'kha is chosen), negative opinion for Bosmers (only Arenthi for now).
 	
-	2.4) Modifier for restoring Kingdom of Darloc Brae and then modifier if you decided to stop expansion
+	2.4) Modifier for restoring Kingdom of Darloc Brae (dynasty modifier)
 	
 	2.5) Modifier for Bosmers for returning Arenthia
 
 3) Events for already existing decisions:
 
-	3.1) Anequina decision - flavour, get nickname and some prestige
+	3.1) Anequina decision - get nickname and some prestige
 	
 	3.2) Leaywiin decision - can choose who to settle: Malaapit, Anequinan or keep Nibenese
 	
-	3.3) Arenthia decision - can choose capital for Arenthia
+	3.3) Arenthia decision - can choose capital for Arenthia (Arenthia itself or Rawl'kha)
 	
 	3.4) Event for restoring Kingdom of Darloc Brae and then deciding what direction to take
 	
-	3.5) Event when getting claim on Elsweyr
-	
-	3.6) Event for claiming Cyrodiil
-	
-4) Harry Dubois - Khajiit edition (employed by queen of Anequina)
-
-5) Interaction to cause slave revolts in Morrowind
-
-6) Altmer flavor: 2 new court positions - Court Justiciar and Court Sapiarch
-
-7) New tradition for Anequina - available after conquering Cyrodiil and unlock unique MAA
-	
-
-## TO-DO:
-
-1) Do'krin special building in game
-
-2) Decisions for Morrowind
-
-3) Mane version of Cyrodiil decisions
-
-4) Stress and Vassal opinion modifiers for decision events
-
-5) Fix Xylo River ?
-
-6) Empire of Tamriel: Anequina Edition
-
-7) Add Harry Dubois of every race
+4) New artifact at court of Anequina

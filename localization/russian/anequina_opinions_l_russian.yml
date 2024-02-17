@@ -1,2 +1,0 @@
-l_russian:
- reformed_two_moons_opinion:0 "[Select_CString(CHARACTER.IsFemale, 'Реформировала', 'Реформировал' )] Каджитскую веру"

@@ -52,61 +52,10 @@
  anequina.0004.b.tt:0 "Вы получите претензию на Ал'баст и откроете решения фокусирующиеся на объединении Эльсвейра. Вы всё ещё сможете открыть Сиродильские решения, но позже."
  anequina.0004.c:0 "Нам достаточно того, что у нас есть."
  anequina.0004.c.tt:0 "Вы сфокусируетесь на развитии ваших земель. Вы не сможете открыть Сиродильские или Пеллетинские решения."
-
- conquer_skingrad_decision:0 "Завоевать Скинград"
- conquer_skingrad_decision_desc:0 "Завоевав Скинград и установив на трон симпатизирующего нам правителя мы сможем добавить Скинград в наше растущее королевство."
- conquer_skingrad_decision_tooltip:0 "Завоевать Скинград"
- conquer_skingrad_decision_confirm:0 "Мы превзойдем Дарлок Брея!"
-
- dismantle_mane_decision:0 "Заявить претензии на Пеллетин"
- dismantle_mane_decision_desc:0 "С нашим постоянным расширением было неизбежно, что придётся время сразится с Гривой. Если мы будем контролировать значительную часть Южного Эльсвейра или Сиродил, мы можем заявить претензии на Пеллетин и начать войну, чтобы захватить регион."
- dismantle_mane_decision_tooltip:0 "Вы получите претензию на Конфедерацию Эльсвейра."
- dismantle_mane_decision_effect_tooltip:0 "Вы получите претензию на Конфедерацию Эльсвейра"
- dismantle_mane_decision_confirm:0 "Мы будем править Эльсвейром!"
-
- anequina.0005.t:0 "Амбиции Анеквины"
- anequina.0005.desc:0 "Долгое время наша власть росла и было неизбежно, что это закончится сражением с Гривой. Несмотря на то, что они до сих пор наш духовный лидер, пришло время объеденить Эльсвейр под Анеквиной и вести его в будущее."
- anequina.0005.a:0 "За Анеквину!"
-
- anequina.0006.t:0 "Амбиции Анеквины"
- anequina.0006.desc:0 "Долгое время наша власть Анеквины росла и было неизбежно, что это закончится сражением с нами. Пришло время решить судьбу Эльсвейра на поле боя!"
- anequina.0006.a:0 "За Гриву!"
-
- unite_elsweyr_anequina_decision:0 "Объединить Эльсвейр"
- unite_elsweyr_anequina_decision_desc:0 "Пришло время объединить Эльсвейр."
- unite_elsweyr_anequina_decision_tooltip:0 "Вы объедините Эльсвейр."
- unite_elsweyr_anequina_decision_effect_tooltip:0 "Вы объедините Эльсвейр. Претензия на Скинград и решения фокусирующиеся на завоевании Сиродила будут добавлены, если ещё не выполнены."
- unite_elsweyr_anequina_decision_confirm:0 "Наконец, Эльсвейр вновь един."
-
- invade_heartlands_decision:0 "Вторгнутся в сердце Сиродила"
- invade_heartlands_decision_desc:0 "С завоеванием Скинграда у нас есть возможность захватить один из самых регионов Тамриеля. Но, чтобы сделать это, нужно закрепить наш контроль над Сиродилом."
- invade_heartlands_decision_tooltip:0 "Вы получите претензию на центр Сиродила"
- invade_heartlands_decision_effect_tooltip:0 "Вы получите претензию на центр Сиродил, затем у вас появится возможность сформировать Сиродильскую империю."
- invade_heartlands_decision_confirm:0 "Вторгнутся в сердце Сиродила"
-
- claim_cyrodiil_decision:0 "Взять Сиродил"
- claim_cyrodiil_decision_desc:0 "После завоевания центра Имперской Провинции, у нас есть шанс взять весь Сиродил - если мы контролилуем достаточную его часть."
- claim_cyrodiil_decision_tooltip:0 "Вы получите Империю Сиродила."
- claim_cyrodiil_decision_effect_tooltip:0 "Анеквина станет де-юре сювереном королевств Сиродила. Вы получите доступ к Пеллетинским решениям, если ещё их не выполнили."
- claim_cyrodiil_decision_confirm:0 "Сиродил принадлежит Анеквине"
  
  return_arenthia_bosmer_decision:0 "Return Arenthia"
  return_arenthia_bosmer_decision_desc:0 "In their ever-growing greed for expansion Khajiit took Arenthia from us. But we do not accept that. If we were to reconquer it back from them and populate Arenthia with Bosmer, we could bring it back under Valenwood's control."
  return_arenthia_bosmer_decision_tooltip:0 "In their ever-growing greed for expansion Khajiit took Arenthia from us. But we do not accept that. If we were to reconquer it back from them and populate Arenthia with Bosmer, we could bring it back under Valenwood's control."
  return_arenthia__bosmer_decision_effect_tooltip:0 "You will bring Arenthia back into de jure Valenwood"
  return_arenthia_bosmer_decision_confirm:0 "Arenthia will be Bosmeri!"
-
- reform_two_moons_decision:0 "Реформировать Каджитскую веру"
- reform_two_moons_decision_desc:0 "Мы завоевали Сиродил, объединил Эльсвейр и сам Грива наш верный слуга. Пришло время нашей династии вести веру Каджитов в будущее."
- reform_two_moons_decision_tooltip:0 "Вы станете главой вашей веры."
- reform_two_moons_decision_effect_tooltip:0 "Вы станете главой вашей веры. Религиозные вассалы не будут этому рады."
- reform_two_moons_decision_confirm:0 "Мы будем вести верующих"
-
- anequina.0007.t:0 "Завоевание Сиродила"
- anequina.0007.desc:0 "Что [Select_CString( founder.IsFemale, 'Эта', 'Этот' )] достиг сегодня превосходит даже великого Дарлок Брея. Сиродил под контролем Каджитов впервые в истории и наши завоевания ещё не закончились.\n\nНо наш дом ещё разделён. Южный Эльсвейр не под нашим контролем и если мы хотим быть ещё более великими, порядок в Пеллетине должен быть восстановлен."
- anequina.0007.a:0 "Эльсвейр должен быть един!"
- 
- anequina.0008.t:0 "Завоевание Сиродила"
- anequina.0008.desc:0 "Что [Select_CString( founder.IsFemale, 'Эта достигла', 'Этот достиг' )] сегодня превосходит даже великого Дарлок Брея. Сиродил под контролем Каджитов впервые в истории и с нашей родиной полностью объединенной, мы можем продолжить продолжить наши завоевания."
- anequina.0008.a:0 "Начинается новая эра для Каджитов."
  
