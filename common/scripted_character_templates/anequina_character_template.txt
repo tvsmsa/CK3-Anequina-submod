@@ -88,14 +88,11 @@ sapiarch_template = {
 	culture = culture:alinor
 
 	gender_female_chance = 50
-	trait = scholar
+	trait = sapiarch
 	
 	#Education
 	random_traits_list = {
 		count = 1
-		education_learning_2 = {
-			weight = { base = 30 }
-		}
 		education_learning_3 = {
 			weight = { base = 20 }
 		}

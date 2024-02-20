@@ -116,6 +116,7 @@ court_divine_prosecutor_position = { #Representative of Divine Prosecution to co
 				text = IS_NOT_THE_SPOUSE_OF_CHARACTER_COURT_POSITION
 				NOT = { is_spouse_of = scope:liege }
 			}
+			has_trait = sapiarch
 
 			can_be_combatant_based_on_gender_trigger = { ARMY_OWNER = scope:liege }
 			trigger_if = {

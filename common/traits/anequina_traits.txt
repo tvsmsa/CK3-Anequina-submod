@@ -1,0 +1,6 @@
+sapiarch = {
+	icon = "sapiarch_black.dds"
+    learning = 5
+	development_growth_factor = 0.15
+    ruler_designer_cost = 50
+}
