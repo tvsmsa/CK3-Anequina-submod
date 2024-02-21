@@ -116,7 +116,6 @@ court_divine_prosecutor_position = { #Representative of Divine Prosecution to co
 				text = IS_NOT_THE_SPOUSE_OF_CHARACTER_COURT_POSITION
 				NOT = { is_spouse_of = scope:liege }
 			}
-			has_trait = sapiarch
 
 			can_be_combatant_based_on_gender_trigger = { ARMY_OWNER = scope:liege }
 			trigger_if = {
@@ -278,10 +277,7 @@ court_sapiarch_position = { #Sapiarch advisor to court of Alinor
 	}
 
 	is_shown = {
-        OR = {
-            has_title = title:e_summerset
-            has_title = title:e_aldmeri_dominion
-        }
+		culture = { has_cultural_pillar = heritage_aldmeri }
 	}
 
 	is_shown_character = {
@@ -290,7 +286,7 @@ court_sapiarch_position = { #Sapiarch advisor to court of Alinor
 		}
 	}
 	valid_position = {
-		highest_held_title_tier >= tier_empire
+		highest_held_title_tier >= tier_kingdom
 	}
 
 	valid_character = {
@@ -301,7 +297,7 @@ court_sapiarch_position = { #Sapiarch advisor to court of Alinor
 				text = IS_NOT_THE_SPOUSE_OF_CHARACTER_COURT_POSITION
 				NOT = { is_spouse_of = scope:liege }
 			}
-
+			has_trait = sapiarch
 			can_be_combatant_based_on_gender_trigger = { ARMY_OWNER = scope:liege }
 			trigger_if = {
 				limit = { NOT = { has_court_position = court_sapiarch_position } }

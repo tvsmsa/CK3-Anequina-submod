@@ -464,3 +464,40 @@ incite_revolts_anequina_interaction = {
 		}
 	}
 }
+
+send_to_amenos_interaction = {
+	category = interaction_category_prison
+	desc = send_to_amenos_interaction_desc
+	icon = prison
+	is_shown = {
+		scope:actor = {
+			any_vassal_or_below = {
+				has_title = title:c_amenos
+			}
+		}
+		scope:recipient = {
+			is_imprisoned_by = scope:actor
+			is_adult = yes
+		}
+	}
+	is_valid_showing_failures_only = {
+		scope:recipient = { is_busy_in_events_localised = yes }
+		scope:recipient = {
+			custom_description = {
+				text = "currently_being_tortured"
+				NOT = { has_character_flag = is_being_tortured }
+			}
+		}
+	}
+	on_accept = {
+		imprison_character_effect = {
+			TARGET = scope:recipient
+			IMPRISONER = scope:c_amenos.holder
+		}
+		scope:actor= {
+			add_gold = {
+				gold = 50
+			}
+		}
+	}
+}

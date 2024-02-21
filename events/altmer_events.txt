@@ -1,5 +1,5 @@
 namespace = altmer_event
-altmer_event.0001 = {
+altmer_event.0001 = { #Recruit sapiarch event 
 	type = character_event
 	content_source = dlc_ek
 	title = altmer_event.0001.t

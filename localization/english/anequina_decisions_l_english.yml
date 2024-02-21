@@ -3,7 +3,7 @@
  restore_anequina_decision:0 "Restore Anequina"
  restore_anequina_decision_desc:0 "Before the formation of Confederacy of Elsweyr and rule of Mane, Anequina was powerful and independent kingdom for thousands of years. Although what realms exist today are far cry from our glorious past, if Northern Elsweyr was once more unified under a strong ruler perhaps we could make steps toward reclaiming our power."
  restore_anequina_decision_tooltip:0 "Kingdom of Anequina will be restored"
- restore_anequina_decision_effect_tooltip:0 "You restore independent kingdom of Anequina and become de jure liege of all kingdoms in the region. You will gain access to new decisions focused on expanding your realm."
+ restore_anequina_decision_effect:0 "You restore independent kingdom of Anequina and become de jure liege of all kingdoms in the region. You will gain access to new decisions focused on expanding your realm."
  restore_anequina_decision_confirm:0 "It's time to restore our ancient glory"
 
  anequina.0001.t:0 "Restoration of Kingdom of Anequina"

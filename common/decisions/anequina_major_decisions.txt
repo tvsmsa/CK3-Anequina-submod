@@ -20,7 +20,12 @@ restore_anequina_decision = {
             culture = culture:anequinan
             culture = { any_parent_culture_or_above = { this = culture:anequinan }}
         }
-        NOT = { has_global_variable = anequina_restored }
+        NOT = {
+            is_target_in_global_variable_list = {
+                name = unavailable_unique_decisions
+                target = flag:anequina_restored
+            } 
+        }
 	}
 
     is_valid = {
@@ -37,9 +42,15 @@ restore_anequina_decision = {
 		completely_controls_region = mundus_tamriel_elsweyr_anequina
 	}
 
+	is_valid_showing_failures_only = {
+		is_capable_adult = yes
+		is_available = yes
+        is_at_war = no
+        is_imprisoned = no
+	}
     cost = {
-		prestige = { value = 1500 }
-		gold = { value = 500 }
+		prestige = 1500 
+		gold = 500 
 	}
 
     effect = {
@@ -48,22 +59,21 @@ restore_anequina_decision = {
 		get_title = title:e_anequina
 		#Event for Restoration
 		trigger_event = anequina.0001
-        custom_tooltip = restore_anequina_decision_effect_tooltip
+        custom_tooltip = restore_anequina_decision_effect
         add_character_modifier = {
 			modifier = restored_anequina_modifier
 			years = 50
 		}
         hidden_effect = {
-            title:k_rimmen = { save_scope_as = anequina_rimmen }
-            title:k_orcrest = { save_scope_as = anequina_orcrest }
-            title:k_riverhold = { save_scope_as = anequina_riverhold }
-            title:k_dune = { save_scope_as = anequina_dune }
             title:k_rimmen = { set_de_jure_liege_title = title:e_anequina }
             title:k_orcrest = { set_de_jure_liege_title = title:e_anequina }
             title:k_riverhold = { set_de_jure_liege_title = title:e_anequina }
             title:k_dune = { set_de_jure_liege_title = title:e_anequina }
 		}
-        set_global_variable = anequina_restored
+        add_to_global_variable_list = {
+            name = unavailable_unique_decisions
+            target = flag:anequina_restored
+        }
 	}
 
     ai_potential = {
