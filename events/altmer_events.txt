@@ -77,3 +77,52 @@ altmer_event.0002 = { #Phrenology sapiarch
 		}
 	}   
 }
+
+altmer_event.0003 = { #sapiarch forces you to stop being friends with heathen
+	type = character_event
+	content_source = dlc_ek
+	title = altmer_event.0003.t
+	desc = altmer_event.0003.desc
+	theme = learning
+
+	trigger = {
+		any_relation = {
+			type = friend
+		}
+	}
+	immediate = {
+        court_position:court_sapiarch_position = {
+            save_scope_as = court_sapiarch
+        }
+		random_relation = {
+			type = friend
+			limit = {
+				NOR = {
+					faith = root.faith
+					culture = { has_cultural_pillar = heritage_aldmeri }
+				}
+			}
+			save_scope_as = heathen_friend
+		}
+    }
+
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+	right_portrait = {
+		character = scope:court_sapiarch
+		animation = beg
+	}
+	lower_left_portrait = scope:heathen_friend
+	option = {
+		name = altmer_event.0003.a
+		remove_relation_friend = scope:heathen_friend
+	}
+	option = {
+		name = altmer_event.0003.b
+		root = {
+			add_piety = major_piety_loss
+		}
+	}   
+}
