@@ -1,0 +1,4 @@
+﻿l_english:
+ trait_sapiarch:0 "Sapiarch"
+ trait_sapiarch_desc:0 "This character is a member of the College of Sapiarchs, a sagely order considered to consist of Alinor's finest scholars and magical minds."
+ trait_sapiarch_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a member of the College of Sapiarchs, a sagely order considered to consist of Alinor's finest scholars and magical minds."

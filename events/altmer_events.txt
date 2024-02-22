@@ -33,3 +33,47 @@ altmer_event.0001 = { #Recruit sapiarch event
 		}
 	}    
 }
+
+altmer_event.0002 = { #Phrenology sapiarch
+	type = character_event
+	content_source = dlc_ek
+	title = altmer_event.0002.t
+	desc = altmer_event.0002.desc
+	theme = learning
+	immediate = {
+		create_character = {
+			template = sapiarch_template
+			dynasty = none
+			location = this.capital_province
+			save_scope_as = sapiarch_recruit				
+			after_creation = { #choose culture
+				random_list = {
+					1 = {set_culture = culture:auridon}
+					4 = {set_culture = culture:alinor} #Likelier to be from Alinor
+				}
+			}	
+		}
+	}
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+	right_portrait = {
+		character = scope:sapiarch_recruit
+		animation = beg
+	}
+	option = {
+		name = altmer_event.0002.a
+		root = { add_courtier = scope:sapiarch_recruit}
+		appoint_court_position = {
+			recipient = scope:sapiarch_recruit
+			court_position = court_sapiarch_position
+		}
+	}
+	option = {
+		name = altmer_event.0002.b
+		root = {
+			add_piety = minor_piety_loss
+		}
+	}   
+}

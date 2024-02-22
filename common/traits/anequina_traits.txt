@@ -1,6 +1,22 @@
 sapiarch = {
 	icon = "sapiarch_black.dds"
+    #category = fame
     learning = 5
 	development_growth_factor = 0.15
+	flag = add_arcana_5
     ruler_designer_cost = 50
+
+    shown_in_ruler_designer = no
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_sapiarch_desc
+			}
+			desc = trait_sapiarch_character_desc
+		}
+	}
 }

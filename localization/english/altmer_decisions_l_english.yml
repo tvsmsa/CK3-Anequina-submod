@@ -6,5 +6,10 @@
  recruit_sapiarch_decision_confirm:0 "Recruit Sapiarch"
 
  altmer_event.0001.t:0 "Sapiarch Arrives"
- altmer_event.0001.desc:0 "Finnaly, one of the Sapiarchs arrived to advise me and serve as connection between the court and the College."
+ altmer_event.0001.desc:0 "Finally, one of the Sapiarchs arrived to advise me and serve as connection between the court and the College."
  altmer_event.0001.a:0 "Welcome, Sapiarch"
+
+ altmer_event.0002.t:0 "Applied Phrenology"
+ altmer_event.0002.desc:0 "As I travel through [ROOT.Char.GetCurrentLocation.GetName], I notice a commotion in the center of it, with locals gathered around what looks like a scholar measuring someone's skull.\n"Do you see this ridge? It means ambition. And indentation besides? That means caution" - [sapiarch_recruit.GetSheHe|U] says to people gathered around [sapiarch_recruit.GetHerHim] and i realise that such learned words could only come from Sapiarch's mouth.\nSuddenly [sapiarch_recruit.GetSheHe|U] turns towards me and starts speaking:"What a fascinating head... The valley beneath the brow, the inflection of the temple... Most curious..."\nAfter a minute of silence [sapiarch_recruit.GetSheHe|U] proclaims:"I must travel with you!""
+ altmer_event.0002.a:0 "Very well, measure skulls with me!"
+ altmer_event.0002.b:0 "I'm afraid I have to refuse."
