@@ -20,12 +20,7 @@ restore_anequina_decision = {
             culture = culture:anequinan
             culture = { any_parent_culture_or_above = { this = culture:anequinan }}
         }
-        NOT = {
-            is_target_in_global_variable_list = {
-                name = unavailable_unique_decisions
-                target = flag:anequina_restored
-            } 
-        }
+        NOT = { has_global_variable = anequina_restored }
 	}
 
     is_valid = {
@@ -70,10 +65,7 @@ restore_anequina_decision = {
             title:k_riverhold = { set_de_jure_liege_title = title:e_anequina }
             title:k_dune = { set_de_jure_liege_title = title:e_anequina }
 		}
-        add_to_global_variable_list = {
-            name = unavailable_unique_decisions
-            target = flag:anequina_restored
-        }
+        set_global_variable = anequina_restored
 	}
 
     ai_potential = {

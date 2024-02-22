@@ -3,5 +3,6 @@ tags={
 	"Culture"
 	"Gameplay"
 }
-name="Anequina Submod"
+name="Khajiit decisions and flavor"
 supported_version="1.10.2"
+remote_file_id="3159828108"
