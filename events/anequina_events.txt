@@ -188,37 +188,7 @@ anequina.0004 = {
 		character = root
 		animation = personality_bold
 	}
-	#Choose Skingrad
 	option = {
 		name = anequina.0004.a
-		custom_tooltip = anequina.0004.a.tt
-		add_pressed_claim = title:k_skingrad
-		set_global_variable = anequina_cyrodiil_expansion
-	}
-
-	#Choose Torval
-	option = {
-		name = anequina.0004.b
-		custom_tooltip = anequina.0004.b.tt
-		add_pressed_claim = title:k_alabaster
-		set_global_variable = anequina_south_expansion
-	}
-
-	#Don't expand
-	option = {
-		name = anequina.0004.c
-		custom_tooltip = anequina.0004.c.tt
-		hidden_effect = {
-			every_sub_realm_county = {
-				limit = {
-					culture = { has_cultural_pillar = heritage_khajiiti }
-					title_province = { geographical_region = mundus_tamriel_elsweyr_anequina }
-				}
-				add_county_modifier = {
-					modifier = flourishing_culture_modifier
-					years = 50
-				}
-			}
-		}
 	}
 }

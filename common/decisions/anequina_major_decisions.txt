@@ -102,8 +102,16 @@ integrate_leyawiin_decision = {
             culture = culture:anequinan
             culture = { any_parent_culture_or_above = { this = culture:anequinan }}
         }
-        has_global_variable = anequina_restored
-        NOT = { has_global_variable = leyawiin_integrated }
+        is_target_in_global_variable_list = {
+            name = unavailable_unique_decisions
+            target = flag:anequina_restored
+        } 
+        NOT = {
+            is_target_in_global_variable_list = {
+                name = unavailable_unique_decisions
+                target = flag:leyawiin_integrated
+            } 
+        }
 	}
 
     is_valid = {
@@ -122,7 +130,10 @@ integrate_leyawiin_decision = {
         custom_tooltip = integrate_leyawiin_decision_effect_tooltip
         trigger_event = anequina.0002
         title:k_leyawiin = { set_de_jure_liege_title = title:e_anequina }
-        set_global_variable = leyawiin_integrated
+        add_to_global_variable_list = {
+            name = unavailable_unique_decisions
+            target = flag:leyawiin_integrated
+        }
     }
 
     ai_potential = {
@@ -151,8 +162,16 @@ return_arenthia_decision = {
             culture = culture:anequinan
             culture = { any_parent_culture_or_above = { this = culture:anequinan }}
         }
-        has_global_variable = anequina_restored
-        NOT = { has_global_variable = arenthia_returned }
+        is_target_in_global_variable_list = {
+            name = unavailable_unique_decisions
+            target = flag:anequina_restored
+        } 
+        NOT = {
+            is_target_in_global_variable_list = {
+                name = unavailable_unique_decisions
+                target = flag:arenthia_returned
+            } 
+        }
 	}
 
     is_valid = {
@@ -178,7 +197,10 @@ return_arenthia_decision = {
         }
         trigger_event = anequina.0003
         title:k_arenthia = { set_de_jure_liege_title = title:e_anequina }
-        set_global_variable = arenthia_returned
+        add_to_global_variable_list = {
+            name = unavailable_unique_decisions
+            target = flag:arenthia_returned
+        }
     }
     ai_potential = {
 		always = yes
@@ -206,8 +228,16 @@ restore_darloc_kingdom_decision = {
             culture = culture:anequinan
             culture = { any_parent_culture_or_above = { this = culture:anequinan }}
         }
-        has_global_variable = anequina_restored
-        NOT = { has_global_variable = restored_darloc_kingdom }
+        is_target_in_global_variable_list = {
+            name = unavailable_unique_decisions
+            target = flag:anequina_restored
+        } 
+        NOT = {
+            is_target_in_global_variable_list = {
+                name = unavailable_unique_decisions
+                target = flag:restored_darloc_kingdom
+            } 
+        }
 	}
 
     is_valid = {
@@ -247,7 +277,10 @@ restore_darloc_kingdom_decision = {
             add_dynasty_modifier = { modifier = restored_darloc_kingdom_modifier }
         }
         trigger_event = anequina.0004
-        set_global_variable = restored_darloc_kingdom
+        add_to_global_variable_list = {
+            name = unavailable_unique_decisions
+            target = flag:restored_darloc_kingdom
+        }
     }
 
     ai_potential = {
