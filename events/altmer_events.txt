@@ -65,6 +65,7 @@ altmer_event.0002 = { #Phrenology sapiarch
 	option = {
 		name = altmer_event.0002.a
 		root = { add_courtier = scope:sapiarch_recruit}
+		small_praxis_increase_effect = yes
 		appoint_court_position = {
 			recipient = scope:sapiarch_recruit
 			court_position = court_sapiarch_position
@@ -72,6 +73,7 @@ altmer_event.0002 = { #Phrenology sapiarch
 	}
 	option = {
 		name = altmer_event.0002.b
+		small_praxis_decrease_effect = yes
 		root = {
 			add_piety = minor_piety_loss
 		}
@@ -85,9 +87,18 @@ altmer_event.0003 = { #sapiarch forces you to stop being friends with heathen
 	desc = altmer_event.0003.desc
 	theme = learning
 
+	cooldown = {years = 40}
+
 	trigger = {
 		any_relation = {
 			type = friend
+			save_temporary_scope_as = heathen_friend_temp
+		}
+		scope:heathen_friend_temp = {
+			NOR = {
+				faith = root.faith
+				culture = { has_cultural_pillar = heritage_aldmeri }
+			}
 		}
 	}
 	immediate = {
@@ -117,10 +128,12 @@ altmer_event.0003 = { #sapiarch forces you to stop being friends with heathen
 	lower_left_portrait = scope:heathen_friend
 	option = {
 		name = altmer_event.0003.a
+		moderate_praxis_increase_effect = yes
 		remove_relation_friend = scope:heathen_friend
 	}
 	option = {
 		name = altmer_event.0003.b
+		moderate_praxis_decrease_effect = yes
 		root = {
 			add_piety = major_piety_loss
 		}

@@ -1,10 +1,11 @@
 sapiarch = {
 	icon = "sapiarch_black.dds"
     #category = fame
+	flag = can_not_marry
+	inheritance_blocker = all
     learning = 5
-	development_growth_factor = 0.15
-	flag = add_arcana_5
-    ruler_designer_cost = 50
+	#development_growth_factor = 0.15
+	#flag = add_arcana_5
 
     shown_in_ruler_designer = no
 	
