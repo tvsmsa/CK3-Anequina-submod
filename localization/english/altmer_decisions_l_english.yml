@@ -18,4 +18,3 @@
  altmer_event.0003.desc:0 "[court_sapiarch.GetFirstName] has been serving me faithfully and giving valuable advice. Today he comes in as usually and starts speaking "My liege, I am afraid according to the Scrolls of Praxis you need to stop your friendly relationship with [heathen_friend.GetFirstName], due to [heathen_friend.GetHerHim] not worshipping our ancestors."\n\nI can't believe it, I have no wish to stop being friends with [heathen_friend.GetFirstName], but if that is needed to uphold Ceremoniarchy..."
  altmer_event.0003.a:0 "I understand, wise Sapiarch."
  altmer_event.0003.b:0 "No, I will not leave my friend!"
- 

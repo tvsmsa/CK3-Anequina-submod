@@ -83,8 +83,8 @@ anequina_revolt_character_template = {
 }
 
 sapiarch_template = {
-	age = { 30 50 } #Not too young, not too old
-	faith = root.faith
+	age = { 30 50 } #Not too young, not too old idk how this works for elves
+	faith = faith:auriel
 	culture = culture:alinor
 
 	gender_female_chance = 50
@@ -98,6 +98,35 @@ sapiarch_template = {
 		}
 		education_learning_4 = {
 			weight = { base = 10 }
+		}
+	}
+	#Need magic
+	random_traits_list = {
+		count = 1
+		education_magical_ability_1 = {
+			weight = {base = 40}
+		}
+		education_magical_ability_2 = {
+			weight = {base = 30}
+		}
+		education_magical_ability_3 = {
+			weight = {base = 10}
+		}
+		education_magical_ability_4 = {
+			weight = {base = 5}
+		}
+	}
+	#And since they're altmers, some inherent magic
+	random_traits_list = {
+		count = 1
+		arcana_good_1 = {
+			weight = {base = 40}
+		}
+		arcana_good_2 = {
+			weight = {base = 10}
+		}
+		arcana_good_3 = {
+			weight = {base = 5}
 		}
 	}
 	random_traits_list = {

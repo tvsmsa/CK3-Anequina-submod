@@ -40,6 +40,11 @@ altmer_event.0002 = { #Phrenology sapiarch
 	title = altmer_event.0002.t
 	desc = altmer_event.0002.desc
 	theme = learning
+	trigger = {
+		NOT = {
+			employs_court_position = court_sapiarch_position
+		}
+	}
 	immediate = {
 		create_character = {
 			template = sapiarch_template
@@ -100,6 +105,7 @@ altmer_event.0003 = { #sapiarch forces you to stop being friends with heathen
 				culture = { has_cultural_pillar = heritage_aldmeri }
 			}
 		}
+		employs_court_position = court_sapiarch_position
 	}
 	immediate = {
         court_position:court_sapiarch_position = {

@@ -42,4 +42,4 @@ recruit_sapiarch_decision = {
 	ai_will_do = {
 		base = 80
 	}
-}	
+}
