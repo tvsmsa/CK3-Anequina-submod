@@ -1,0 +1,10 @@
+﻿l_english:
+ betony_breton_decision:0 "Return Betony"
+ betony_breton_decision_desc:0 "Since conquest of Betony by Orcs and death of its entire ruling family, the isle fell out of Breton hands. But if I could restore control over mainland and conquer Betony back, I could proclaim the kingdom restored."
+ betony_breton_decision_tooltip:0 "Restore Kingdom of Betony"
+ betony_breton_decision_confirm:0 "Betony belongs to Daggerfall!"
+
+ betony_regduard_decision:0 "Claim Betony"
+ betony_regduard_decision_desc:0 "Isle of Betony is one of the most stategically important islands in the Iliac Bay. If we were to fully control Sentinel and then take Betony, we could become one of the strongest kingdoms in Iliac Bay."
+ betony_regduard_decision_tooltip:0 "Bring Betony into De Jure hierarchy of Hammerfell"
+ betony_regduard_decision_confirm:0 "Betony belongs to Sentinel!"

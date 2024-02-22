@@ -25,6 +25,10 @@ betony_breton_decision = {
         is_independent_ruler =  yes
         prestige_level >= 3
         OR = {
+            has_title = title:k_daggerfall
+            has_title = title:k_glenumbra
+        }
+        OR = {
 		    completely_controls = title:k_daggerfall
             completely_controls_region = mundus_tamriel_high_rock_glenumbra
         }
@@ -77,6 +81,7 @@ betony_regduard_decision = {
     is_valid = {
         is_independent_ruler =  yes
         prestige_level >= 3
+        has_title = title:k_sentinel
 		completely_controls = title:k_sentinel
         completely_controls = title:d_pothago
         completely_controls = title:d_betony
@@ -94,9 +99,9 @@ betony_regduard_decision = {
 
     effect = {
 		get_title = title:k_betony
-        title:d_betony = { set_de_jure_liege_title = title:k_betony }
+        title:k_betony = { set_de_jure_liege_title = title:e_hammerfell }
         hidden_effect = {
-            title:k_betony = { set_de_jure_liege_title = title:e_hammerfell }
+            title:d_betony = { set_de_jure_liege_title = title:k_betony }
 		}
 	}
 
