@@ -785,3 +785,126 @@ restore_pellitine_decision = {
 		base = 100
 	}    
 }
+
+promote_khajiit_settlement_decision = {
+    picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+    desc = promote_khajiit_settlement_decision_desc
+    selection_tooltip = promote_khajiit_settlement_decision_tooltip
+    major = yes
+
+    ai_check_interval = 120
+
+    is_shown = {
+		is_ruler = yes
+		is_landed = yes
+		NOT = { has_title = title:e_elsweyr }
+        culture = { has_cultural_pillar = heritage_khajiiti}
+		capital_province = {
+            geographical_region = mundus_tamriel_hammerfell_abecee
+        }
+        NOT = {
+            is_target_in_global_variable_list = {
+                name = unavailable_unique_decisions
+                target = flag:promoted_khajiit_settlement
+            } 
+        }
+	}
+
+    is_valid = {
+        is_independent_ruler =  yes
+        is_at_war = no
+        prestige_level >= 3
+		OR = {
+			has_primary_title = title:d_abah
+			has_primary_title = title:d_hnas
+            has_primary_title = title:d_no_shira
+		}
+        OR = {
+			completely_controls = title:d_hnas
+            completely_controls = title:d_no_shira
+		}
+	}
+
+    cost = {
+		prestige = 500
+		gold = 200 
+	}
+
+    effect = {
+        #root.capital
+		#root.capital_province.culture = root.culture
+        capital_county = {set_county_culture = root.culture}
+        add_to_global_variable_list = {
+            name = unavailable_unique_decisions
+            target = flag:promoted_khajiit_settlement
+        }
+        primary_title = {
+			every_in_de_jure_hierarchy = {
+				limit = { 
+                    tier = tier_county
+                    title_province = { geographical_region = mundus_tamriel_hammerfell_abecee}
+                }
+				add_to_list = abecee_khajiit_counties
+			}
+		}
+
+		every_in_list = {
+			list = abecee_khajiit_counties
+            set_county_culture = root.culture
+		}
+	}
+
+    ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}    
+}
+
+repurpose_chapel_of_zenithar_decision = {
+    picture = "gfx/interface/illustrations/decisions/decision_realm.dds"
+    desc = repurpose_chapel_of_zenithar_decision_desc
+    selection_tooltip = repurpose_chapel_of_zenithar_decision_tooltip
+    major = yes
+
+    ai_check_interval = 120
+
+    is_shown = {
+		is_ruler = yes
+		is_landed = yes
+        culture = { has_cultural_pillar = heritage_khajiiti}
+        completely_controls = title:c_leyawiin
+        OR = {
+            faith = faith:twomoonsdance
+            faith = faith:manypathsdance
+        }
+        NOT = { title:b_zenithar_cathedral.title_province = { has_building = great_chapel_zenithar_02 } }
+	}
+
+    is_valid = {
+        completely_controls = title:c_leyawiin
+	}
+
+    cost = {
+		gold = 1000 
+	}
+
+    effect = {
+        title:b_zenithar_cathedral.title_province = {
+			remove_building = great_chapel_zenithar_01
+		}
+		title:b_zenithar_cathedral.title_province = {
+			add_special_building = great_chapel_zenithar_02
+		}
+	}
+
+    ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	} 
+}

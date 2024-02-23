@@ -1,0 +1,6 @@
+﻿l_english:
+ building_type_great_chapel_zenithar_02:0 "Great Temple of Two-Moons"
+ building_type_great_chapel_zenithar_02_desc:0 "Previously an Imperial Chapel dedicated to Zenithar, this temple was converted to the worship of the Moons by the Khajiit."
+ building_great_chapel_zenithar_02:0 "$building_type_great_chapel_zenithar_02$
+ building_great_chapel_zenithar_02_desc:0 "$building_type_great_chapel_zenithar_02_desc$"
+ holy_site_or_zenithar_khajiit:0 "Holder [faith|E] must have Riddle'thar pantheon doctrine or ."

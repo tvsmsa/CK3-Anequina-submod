@@ -119,4 +119,15 @@
  pellitine.0001.t:0 "Restoration of Pellitine"
  pellitine.0001.desc:0 "After many years Pellitine is independent of Mane or Anequina. Some exist who would wish to have us under control, but we will not let them."
  pellitine.0001.a:0 "Pellitine is free"
+
+ promote_khajiit_settlement_decision:0 "Promote Khajiit settlement in Abecee"
+ promote_khajiit_settlement_decision_desc:0 "With Elsweyr in chaos, if a strong Khajiit ruler managed to carve out independent realm in Abecean sea, perhaps our people might be motivated to migrate here. \n\n (Note:if you diverge after completing this decision, your new culture will be considered native to Abecee)."
+ promote_khajiit_settlement_decision_tooltip:0 "Promote Khajiit settlement in Abecee"
+ promote_khajiit_settlement_decision_confirm:0 "A new homeland for Khajiit!"
+
+ repurpose_chapel_of_zenithar_decision:0 "Repurpose Great Chapel of Zenithar"
+ promote_khajiit_settlement_decision_desc:0 "Old tales say, that once during conquests of Darloc Brae, Chapel of Zenithar in Leyawiin was converted to temple of the Moons. With Leyawiin under our control we could make that true once more."
+ promote_khajiit_settlement_decision_tooltip:0 "Repurpose Great Chapel of Zenithar"
+ promote_khajiit_settlement_decision_confirm:0 "Convert Chapel of Zenithar"
+
  

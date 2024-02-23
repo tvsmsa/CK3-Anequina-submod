@@ -1,46 +1,56 @@
 ##########
-# Do'Krin Monastery, built by Darloc Brae, idk how to put it in game
+# Great of Chapel of Zenithar
 ##########
-
-dokrin_temple_01 = {
+great_chapel_zenithar_02 = {
 	construction_time = very_slow_construction_time
-
-	type_icon = "icon_structure_khajuraho_temples.dds"
-	
+	type_icon = "icon_structure_cologne_cathedral.dds"
 	can_construct_potential = {
 		building_requirement_tribal = no
 	}
-	
 	can_construct = {
+		custom_tooltip = {
+			text = holy_site_or_zenithar_khajiit
+			OR = {
+				scope:holder = { faith = { has_doctrine = doctrine_pantheon_riddlethar } }
+				scope:holder = { faith = { has_doctrine = doctrine_pantheon_khajiiti } }
+			}	
+		}
+		scope:holder = {
+			culture = {
+				has_innovation = innovation_manorialism
+			}
+		}
 	}
-	
 	is_enabled = {
-		scope:holder.culture = { has_cultural_pillar = heritage_khajiiti }
+		custom_tooltip = {
+			text = holy_site_or_zenithar
+			OR = {
+				scope:holder = { faith = { has_doctrine = doctrine_pantheon_riddlethar } }
+				scope:holder = { faith = { has_doctrine = doctrine_pantheon_khajiiti } }
+			}	
+		}
 	}
-	
-	show_disabled = yes
-	
-	cost_gold = 1000
+
+		cost_gold = 1000
 
 	character_modifier = {
-		different_faith_opinion = 10
 		monthly_piety = 0.5
+		monthly_piety_gain_mult = 0.1
+		clergy_opinion = 10
+		zealot_opinion = 10
+		martial_per_piety_level = 2
+	}
+
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+		development_growth = 0.1
 	}
 	province_modifier = {
 		monthly_income = 1.5
 	}
-	county_modifier = {
-		tax_mult = 0.2
-		development_growth_factor = 0.2
-		development_growth = 0.5
-	}
-	
 	ai_value = {
 		base = 100
-		modifier = { # Fill all building slots before going for special buildings
-			factor = 0
-			free_building_slots > 0
-		}
 	}
 	
 	type = special

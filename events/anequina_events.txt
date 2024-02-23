@@ -52,7 +52,7 @@ anequina.0002 = {
 				add_county_modifier = {
 					modifier = malapiit_flourishing_modifier
 					years = 80
-					}
+				}
 			}
 			title:c_tyrios = {
 				set_county_culture = culture:malapiit
