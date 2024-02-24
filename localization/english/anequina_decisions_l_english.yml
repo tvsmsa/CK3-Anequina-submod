@@ -126,8 +126,8 @@
  promote_khajiit_settlement_decision_confirm:0 "A new homeland for Khajiit!"
 
  repurpose_chapel_of_zenithar_decision:0 "Repurpose Great Chapel of Zenithar"
- promote_khajiit_settlement_decision_desc:0 "Old tales say, that once during conquests of Darloc Brae, Chapel of Zenithar in Leyawiin was converted to temple of the Moons. With Leyawiin under our control we could make that true once more."
- promote_khajiit_settlement_decision_tooltip:0 "Repurpose Great Chapel of Zenithar"
- promote_khajiit_settlement_decision_confirm:0 "Convert Chapel of Zenithar"
+ repurpose_chapel_of_zenithar_decision_desc:0 "Old tales say, that once during conquests of Darloc Brae, Chapel of Zenithar in Leyawiin was converted to temple of the Moons. With Leyawiin under our control we could make that true once more."
+ repurpose_chapel_of_zenithar_decision_tooltip:0 "Repurpose Great Chapel of Zenithar"
+ repurpose_chapel_of_zenithar_decision_confirm:0 "Convert Chapel of Zenithar"
 
  

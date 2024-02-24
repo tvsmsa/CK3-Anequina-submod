@@ -831,27 +831,11 @@ promote_khajiit_settlement_decision = {
 	}
 
     effect = {
-        #root.capital
-		#root.capital_province.culture = root.culture
         capital_county = {set_county_culture = root.culture}
         add_to_global_variable_list = {
             name = unavailable_unique_decisions
             target = flag:promoted_khajiit_settlement
         }
-        primary_title = {
-			every_in_de_jure_hierarchy = {
-				limit = { 
-                    tier = tier_county
-                    title_province = { geographical_region = mundus_tamriel_hammerfell_abecee}
-                }
-				add_to_list = abecee_khajiit_counties
-			}
-		}
-
-		every_in_list = {
-			list = abecee_khajiit_counties
-            set_county_culture = root.culture
-		}
 	}
 
     ai_potential = {
